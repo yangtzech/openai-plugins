@@ -92,23 +92,20 @@ jobs:
         run: |
           git add -A
 
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
+          if ! git diff --cached --quiet; then
+            SUMMARY=$(head -20 /tmp/upstream-diff.txt | sed 's/^/  /')
+            DELETED="${{ steps.deleted.outputs.deleted || '0' }}"
 
-          SUMMARY=$(head -20 /tmp/upstream-diff.txt | sed 's/^/  /')
-          DELETED="${{ steps.deleted.outputs.deleted || '0' }}"
-
-          {
-            echo "sync: upstream openai/plugins update"
-            if [ "$DELETED" != "0" ]; then
+            {
+              echo "sync: upstream openai/plugins update"
+              if [ "$DELETED" != "0" ]; then
+                echo ""
+                echo "Removed $DELETED orphaned plugin(s)."
+              fi
               echo ""
-              echo "Removed $DELETED orphaned plugin(s)."
-            fi
-            echo ""
-            echo "Upstream changes:"
-            echo "$SUMMARY"
-          } | git commit -F -
+              echo "Upstream changes:"
+              echo "$SUMMARY"
+            } | git commit -F -
+          fi
 
           git push
