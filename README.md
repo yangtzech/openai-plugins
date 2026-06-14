@@ -7,31 +7,6 @@ Each plugin lives under `plugins/<name>/` with a required
 `skills/`, `.app.json`, `.mcp.json`, plugin-level `agents/`, `commands/`,
 `hooks.json`, `assets/`, and other supporting files.
 
-## Quick Start: Install Plugins via Marketplace
-
-The easiest way to use these plugins is through the Claude Code marketplace:
-
-```bash
-# Add the marketplace (one-time, in Claude Code)
-/plugin marketplace add yangtzech/openai-plugins
-
-# Then install any plugin
-/plugin install figma
-/plugin install notion
-/plugin install github
-```
-
-Alternatively, using the command line:
-
-```bash
-claude marketplace add yangtzech/openai-plugins
-claude plugin install figma@openai-plugins
-```
-
-For more details, see [scripts/MARKETPLACE.md](scripts/MARKETPLACE.md) and the marketplace manifest at [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json).
-
-## Highlighted Examples
-
 Highlighted richer examples in this repo include:
 
 - `plugins/figma` for `use_figma`, Code to Canvas, Code Connect, and design system rules
@@ -42,22 +17,18 @@ Highlighted richer examples in this repo include:
 - `plugins/expo` for Expo and React Native apps, SDK upgrades, EAS workflows, and Codex Run actions
 - `plugins/netlify`, `plugins/remotion`, and `plugins/google-slides` for additional public skill- and MCP-backed plugin bundles
 
-## Available Plugins
+## Claude Code Marketplace
 
-This repository contains **174 plugins** across various categories:
+These plugins are also available as a [Claude Code](https://claude.ai/code) plugin marketplace.
 
-- **Developer Tools**: github, circleci, cloudflare, vercel, netlify, render, supabase, neon-postgres, etc.
-- **Productivity**: notion, asana, linear, clickup, monday-com, teamwork-com, etc.
-- **Communication**: slack, teams, zoom, intercom, help-scout, etc.
-- **Finance & CRM**: stripe, hubspot, pipedrive, salesforce, quickbooks, etc.
-- **Design & Media**: figma, canva, picsart, shutterstock, remotion, etc.
-- **Data & Analytics**: datadog, mixpanel, posthog, amplitude, etc.
-- **AI & ML**: hugging-face, nvidia, openai-developers, etc.
-- **And many more...**
+```bash
+# Add the marketplace (one-time)
+/plugin marketplace add yangtzech/openai-plugins
 
-See [.claude-plugin/marketplace.json](.claude-plugin/marketplace.json) for the full list.
+# Install any plugin
+/plugin install figma
+/plugin install notion
+/plugin install github
+```
 
-## Scripts
-
-- `scripts/generate-marketplace-json.py` - Regenerate marketplace.json manifest
-- `scripts/codex2claude.py` - Adapt Codex plugins to work with Claude Code
+See [CLAUDE-CODE.md](CLAUDE-CODE.md) for the full plugin list and more details.
