@@ -51,6 +51,15 @@ jobs:
             echo "$DIFF" > /tmp/upstream-diff.txt
           fi
 
+          # Determine commit message based on trigger
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "commit_type=chore" >> "$GITHUB_OUTPUT"
+          elif [ "$DIFF" ]; then
+            echo "commit_type=sync" >> "$GITHUB_OUTPUT"
+          else
+            echo "commit_type=chore" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Merge upstream
         if: steps.changes.outputs.upstream_changed == 'true'
         run: |
@@ -90,24 +99,33 @@ jobs:
           git add -A
 
           if ! git diff --cached --quiet; then
+            COMMIT_TYPE="${{ steps.changes.outputs.commit_type }}"
             SUMMARY=""
             if [ -f /tmp/upstream-diff.txt ]; then
               SUMMARY=$(head -20 /tmp/upstream-diff.txt | sed 's/^/  /')
             fi
             DELETED="${{ steps.deleted.outputs.deleted || '0' }}"
 
-            {
-              echo "sync: upstream openai/plugins update [skip ci]"
-              if [ "$DELETED" != "0" ]; then
+            if [ "$COMMIT_TYPE" = "sync" ]; then
+              {
+                echo "sync: upstream openai/plugins update [skip ci]"
+                if [ "$DELETED" != "0" ]; then
+                  echo ""
+                  echo "Removed $DELETED orphaned plugin(s)."
+                fi
+                if [ -n "$SUMMARY" ]; then
+                  echo ""
+                  echo "Upstream changes:"
+                  echo "$SUMMARY"
+                fi
+              } | git commit -F -
+            else
+              {
+                echo "chore: regenerate marketplace artifacts [skip ci]"
                 echo ""
-                echo "Removed $DELETED orphaned plugin(s)."
-              fi
-              if [ -n "$SUMMARY" ]; then
-                echo ""
-                echo "Upstream changes:"
-                echo "$SUMMARY"
-              fi
-            } | git commit -F -
+                echo "Triggered by ${{ github.event_name }} event."
+              } | git commit -F -
+            fi
           fi
 
           git push
