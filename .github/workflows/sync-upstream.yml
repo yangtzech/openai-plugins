@@ -1,0 +1,114 @@
+name: Sync upstream plugins
+
+on:
+  schedule:
+    - cron: "0 2 * * *"  # 每天 UTC 02:00（北京时间 10:00）
+  workflow_dispatch:       # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream remote
+        run: |
+          git remote add upstream https://github.com/openai/plugins.git 2>/dev/null || \
+            git remote set-url upstream https://github.com/openai/plugins.git
+          git fetch upstream main
+
+      - name: Detect upstream changes
+        id: changes
+        run: |
+          MERGE_BASE=$(git merge-base HEAD upstream/main)
+          DIFF=$(git diff --name-status "$MERGE_BASE" upstream/main -- plugins/)
+          if [ -z "$DIFF" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No upstream changes detected."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Upstream changes detected:"
+            echo "$DIFF"
+            echo "$DIFF" > /tmp/upstream-diff.txt
+          fi
+
+      - name: Merge upstream
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          if ! git merge upstream/main --no-edit; then
+            echo "::error::Merge conflict detected. Manual resolution required."
+            git merge --abort
+            exit 1
+          fi
+
+      - name: Detect and remove orphaned plugins
+        if: steps.changes.outputs.changed == 'true'
+        id: deleted
+        run: |
+          DELETED=0
+          for dir in plugins/*/; do
+            [ ! -d "$dir" ] && continue
+            # 上游删除了整个插件目录：目录只剩 .claude-plugin 残留
+            if [ -d "$dir.claude-plugin" ] && [ ! -d "$dir.codex-plugin" ]; then
+              plugin=$(basename "$dir")
+              echo "Removing orphaned plugin: $plugin"
+              rm -rf "$dir"
+              DELETED=$((DELETED + 1))
+            fi
+          done
+          echo "deleted=$DELETED" >> "$GITHUB_OUTPUT"
+
+      - name: Convert Codex plugins to Claude format
+        if: steps.changes.outputs.changed == 'true'
+        run: python3 scripts/codex2claude.py --all
+
+      - name: Check sync status
+        if: steps.changes.outputs.changed == 'true'
+        run: python3 scripts/codex2claude.py --all --check
+
+      - name: Generate marketplace.json
+        if: steps.changes.outputs.changed == 'true'
+        run: python3 scripts/generate-marketplace-json.py
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          SUMMARY=$(head -20 /tmp/upstream-diff.txt | sed 's/^/  /')
+          DELETED="${{ steps.deleted.outputs.deleted || '0' }}"
+
+          {
+            echo "sync: upstream openai/plugins update"
+            if [ "$DELETED" != "0" ]; then
+              echo ""
+              echo "Removed $DELETED orphaned plugin(s)."
+            fi
+            echo ""
+            echo "Upstream changes:"
+            echo "$SUMMARY"
+          } | git commit -F -
+
+          git push
