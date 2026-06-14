@@ -87,6 +87,30 @@ def infer_description_from_content(content: str, max_lines: int = 5) -> str:
     return "Agent from Codex plugin"
 
 
+def infer_command_description(content: str) -> str:
+    """Extract description from a command .md file.
+
+    Looks for the first heading (# /command-name) and the first paragraph after it.
+    """
+    import re
+
+    # Try to get description from first heading
+    match = re.search(r'^#\s+/(.+?)$', content, re.MULTILINE)
+    if match:
+        name = match.group(1)
+        # Get first paragraph after heading
+        lines = content.split('\n')
+        found_heading = False
+        for line in lines:
+            if found_heading:
+                if line.strip() and not line.startswith('#'):
+                    return line.strip().rstrip('.')
+            if line.startswith('# '):
+                found_heading = True
+
+    return "Command"
+
+
 def build_claude_manifest(codex: dict[str, Any], plugin_dir: Path) -> dict[str, Any]:
     """Build a Claude Code plugin.json from a Codex plugin.json."""
     claude: dict[str, Any] = {}
@@ -201,6 +225,51 @@ def process_agents(plugin_dir: Path, dry_run: bool = False) -> list[tuple[str, s
     return results
 
 
+def add_command_frontmatter(
+    md_path: Path,
+    dry_run: bool = False,
+) -> str:
+    """Add YAML frontmatter to a command .md file if it doesn't have one."""
+    content = md_path.read_text(encoding="utf-8")
+
+    if has_frontmatter(content):
+        return "skipped"
+
+    command_name = md_path.stem
+    description = infer_command_description(content)
+
+    # Escape quotes in description
+    description = description.replace('"', '\\"')
+
+    frontmatter_lines = [
+        "---",
+        f"name: {command_name}",
+        f'description: "{description}"',
+        "---",
+        "",
+    ]
+    new_content = "\n".join(frontmatter_lines) + content
+
+    if not dry_run:
+        md_path.write_text(new_content, encoding="utf-8")
+
+    return "updated"
+
+
+def process_commands(plugin_dir: Path, dry_run: bool = False) -> list[tuple[str, str]]:
+    """Process commands/ directory: add frontmatter to .md files."""
+    commands_dir = plugin_dir / "commands"
+    if not commands_dir.is_dir():
+        return []
+
+    results: list[tuple[str, str]] = []
+    for md_file in sorted(commands_dir.glob("*.md")):
+        status = add_command_frontmatter(md_file, dry_run)
+        results.append((md_file.name, status))
+
+    return results
+
+
 def process_hooks(plugin_dir: Path, dry_run: bool = False) -> str:
     """Copy hooks.json to hooks/hooks.json if it exists."""
     src = plugin_dir / CODEX_HOOKS
@@ -239,6 +308,7 @@ def adapt_plugin(plugin_dir: Path, dry_run: bool = False) -> dict[str, Any]:
         "path": str(plugin_dir),
         "manifest": None,
         "agents": [],
+        "commands": [],
         "hooks": None,
     }
 
@@ -263,6 +333,7 @@ def adapt_plugin(plugin_dir: Path, dry_run: bool = False) -> dict[str, Any]:
             write_json(claude_manifest_path, claude)
 
     report["agents"] = process_agents(plugin_dir, dry_run)
+    report["commands"] = process_commands(plugin_dir, dry_run)
     report["hooks"] = process_hooks(plugin_dir, dry_run)
 
     return report
@@ -307,6 +378,15 @@ def check_plugin_sync(plugin_dir: Path) -> dict[str, Any]:
                 report["issues"].append(f"Agent {md_file.name} lacks frontmatter")
                 report["in_sync"] = False
 
+    # Check commands
+    commands_dir = plugin_dir / "commands"
+    if commands_dir.is_dir():
+        for md_file in commands_dir.glob("*.md"):
+            content = md_file.read_text(encoding="utf-8")
+            if not has_frontmatter(content):
+                report["issues"].append(f"Command {md_file.name} lacks frontmatter")
+                report["in_sync"] = False
+
     # Check hooks
     src_hooks = plugin_dir / CODEX_HOOKS
     dst_hooks = plugin_dir / CLAUDE_HOOKS_FILE
@@ -348,6 +428,10 @@ def print_report(report: dict[str, Any]) -> None:
     for agent_name, status in report.get("agents", []):
         sym = {"updated": "[+]", "skipped": "[=]"}.get(status, "[?]")
         print(f"  {sym} agent {agent_name}: {status}")
+
+    for command_name, status in report.get("commands", []):
+        sym = {"updated": "[+]", "skipped": "[=]"}.get(status, "[?]")
+        print(f"  {sym} command {command_name}: {status}")
 
     hooks_status = report.get("hooks")
     if hooks_status and hooks_status != "none":
