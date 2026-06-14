@@ -1,0 +1,15 @@
+{
+  "name": "claude-code-plugin-creator",
+  "version": "1.0.0",
+  "description": "Create, scaffold, and validate Claude Code plugins with skills, agents, hooks, MCP servers, LSP servers, monitors, and more.",
+  "author": {
+    "name": "openai-plugins"
+  },
+  "keywords": ["plugin", "scaffold", "development", "claude-code"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Claude Code Plugin Creator",
+    "shortDescription": "Create and scaffold Claude Code plugins",
+    "category": "Development"
+  }
+}

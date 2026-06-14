@@ -1,0 +1,89 @@
+#!/usr/bin/env bash
+# Fetch the latest Claude Code plugin documentation from ericbuess/claude-code-docs
+# into the references/ directory. Run this periodically to stay up-to-date.
+#
+# Usage:
+#   bash plugins/plugin-creator/scripts/update-docs.sh
+#   bash plugins/plugin-creator/scripts/update-docs.sh --check   # just check for updates
+
+set -euo pipefail
+
+REPO="ericbuess/claude-code-docs"
+BRANCH="main"
+BASE_URL="https://raw.githubusercontent.com/${REPO}/${BRANCH}/docs"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+REF_DIR="${SCRIPT_DIR}/../references"
+
+# Docs relevant to plugin development
+DOCS=(
+  "plugins.md"
+  "plugins-reference.md"
+  "skills.md"
+  "sub-agents.md"
+  "hooks.md"
+  "hooks-guide.md"
+  "plugin-marketplaces.md"
+  "plugin-dependencies.md"
+  "discover-plugins.md"
+  "plugin-hints.md"
+  "mcp.md"
+  "settings.md"
+)
+
+mkdir -p "$REF_DIR"
+
+check_only=false
+if [[ "${1:-}" == "--check" ]]; then
+  check_only=true
+fi
+
+changed=0
+errors=0
+
+for doc in "${DOCS[@]}"; do
+  target="${REF_DIR}/${doc}"
+  tmp="${target}.tmp"
+
+  if ! curl -fsSL "${BASE_URL}/${doc}" -o "$tmp" 2>/dev/null; then
+    echo "  [!] ${doc} — fetch failed"
+    rm -f "$tmp"
+    errors=$((errors + 1))
+    continue
+  fi
+
+  if $check_only; then
+    if [[ -f "$target" ]]; then
+      if diff -q "$target" "$tmp" >/dev/null 2>&1; then
+        echo "  [=] ${doc} — up to date"
+      else
+        echo "  [~] ${doc} — has updates"
+        changed=$((changed + 1))
+      fi
+    else
+      echo "  [+] ${doc} — new"
+      changed=$((changed + 1))
+    fi
+    rm -f "$tmp"
+  else
+    if [[ -f "$target" ]] && diff -q "$target" "$tmp" >/dev/null 2>&1; then
+      echo "  [=] ${doc}"
+      rm -f "$tmp"
+    else
+      mv "$tmp" "$target"
+      if [[ -f "$target" ]]; then
+        echo "  [~] ${doc} — updated"
+      else
+        echo "  [+] ${doc} — fetched"
+      fi
+      changed=$((changed + 1))
+    fi
+  fi
+done
+
+echo "---"
+if $check_only; then
+  echo "Check complete: ${changed} with updates, ${errors} errors, ${#DOCS[@]} total"
+else
+  echo "Done: ${changed} updated, ${errors} errors, ${#DOCS[@]} total"
+  echo "Docs saved to: ${REF_DIR}"
+fi
