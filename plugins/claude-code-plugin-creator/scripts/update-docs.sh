@@ -5,12 +5,16 @@
 # Usage:
 #   bash plugins/plugin-creator/scripts/update-docs.sh
 #   bash plugins/plugin-creator/scripts/update-docs.sh --check   # just check for updates
+#
+# Mirror fallback: if GitHub is unreachable, automatically falls back to
+# https://gitcode.com/gh_mirrors/cl/claude-code-docs
 
 set -euo pipefail
 
 REPO="ericbuess/claude-code-docs"
 BRANCH="main"
 BASE_URL="https://raw.githubusercontent.com/${REPO}/${BRANCH}/docs"
+MIRROR_URL="https://gitcode.com/gh_mirrors/cl/claude-code-docs/raw/${BRANCH}/docs"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REF_DIR="${SCRIPT_DIR}/../references"
 
@@ -37,6 +41,23 @@ if [[ "${1:-}" == "--check" ]]; then
   check_only=true
 fi
 
+# Detect which source is reachable; prefer GitHub, fall back to GitCode mirror.
+echo "Checking GitHub source..."
+if curl -fsSL --connect-timeout 5 --max-time 10 "${BASE_URL}/${DOCS[0]}" -o /dev/null 2>/dev/null; then
+  SOURCE_URL="$BASE_URL"
+  echo "Using GitHub source: ${BASE_URL}"
+else
+  echo "[!] GitHub unreachable, trying GitCode mirror..."
+  if curl -fsSL --connect-timeout 5 --max-time 10 "${MIRROR_URL}/${DOCS[0]}" -o /dev/null 2>/dev/null; then
+    SOURCE_URL="$MIRROR_URL"
+    echo "Using GitCode mirror: ${MIRROR_URL}"
+  else
+    echo "[✗] Both GitHub and GitCode mirror are unreachable. Please check your network."
+    exit 1
+  fi
+fi
+echo "---"
+
 changed=0
 errors=0
 
@@ -44,7 +65,7 @@ for doc in "${DOCS[@]}"; do
   target="${REF_DIR}/${doc}"
   tmp="${target}.tmp"
 
-  if ! curl -fsSL "${BASE_URL}/${doc}" -o "$tmp" 2>/dev/null; then
+  if ! curl -fsSL "${SOURCE_URL}/${doc}" -o "$tmp" 2>/dev/null; then
     echo "  [!] ${doc} — fetch failed"
     rm -f "$tmp"
     errors=$((errors + 1))
