@@ -77,7 +77,6 @@ def generate_marketplace_json(
             "name": "OpenAI",
             "url": "https://openai.com"
         },
-        "homepage": "https://github.com/yangtzech/openai-plugins",
         "plugins": [],
     }
 
