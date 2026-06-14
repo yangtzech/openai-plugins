@@ -40,17 +40,17 @@ jobs:
           MERGE_BASE=$(git merge-base HEAD upstream/main)
           DIFF=$(git diff --name-status "$MERGE_BASE" upstream/main -- plugins/)
           if [ -z "$DIFF" ]; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "upstream_changed=false" >> "$GITHUB_OUTPUT"
             echo "No upstream changes detected."
           else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "upstream_changed=true" >> "$GITHUB_OUTPUT"
             echo "Upstream changes detected:"
             echo "$DIFF"
             echo "$DIFF" > /tmp/upstream-diff.txt
           fi
 
       - name: Merge upstream
-        if: steps.changes.outputs.changed == 'true'
+        if: steps.changes.outputs.upstream_changed == 'true'
         run: |
           if ! git merge upstream/main --no-edit; then
             echo "::error::Merge conflict detected. Manual resolution required."
@@ -59,13 +59,12 @@ jobs:
           fi
 
       - name: Detect and remove orphaned plugins
-        if: steps.changes.outputs.changed == 'true'
+        if: steps.changes.outputs.upstream_changed == 'true'
         id: deleted
         run: |
           DELETED=0
           for dir in plugins/*/; do
             [ ! -d "$dir" ] && continue
-            # 上游删除了整个插件目录：目录只剩 .claude-plugin 残留
             if [ -d "$dir.claude-plugin" ] && [ ! -d "$dir.codex-plugin" ]; then
               plugin=$(basename "$dir")
               echo "Removing orphaned plugin: $plugin"
@@ -76,24 +75,23 @@ jobs:
           echo "deleted=$DELETED" >> "$GITHUB_OUTPUT"
 
       - name: Convert Codex plugins to Claude format
-        if: steps.changes.outputs.changed == 'true'
         run: python3 scripts/codex2claude.py --all
 
       - name: Check sync status
-        if: steps.changes.outputs.changed == 'true'
         run: python3 scripts/codex2claude.py --all --check
 
       - name: Generate marketplace.json
-        if: steps.changes.outputs.changed == 'true'
         run: python3 scripts/generate-marketplace-json.py
 
       - name: Commit and push
-        if: steps.changes.outputs.changed == 'true'
         run: |
           git add -A
 
           if ! git diff --cached --quiet; then
-            SUMMARY=$(head -20 /tmp/upstream-diff.txt | sed 's/^/  /')
+            SUMMARY=""
+            if [ -f /tmp/upstream-diff.txt ]; then
+              SUMMARY=$(head -20 /tmp/upstream-diff.txt | sed 's/^/  /')
+            fi
             DELETED="${{ steps.deleted.outputs.deleted || '0' }}"
 
             {
@@ -102,9 +100,11 @@ jobs:
                 echo ""
                 echo "Removed $DELETED orphaned plugin(s)."
               fi
-              echo ""
-              echo "Upstream changes:"
-              echo "$SUMMARY"
+              if [ -n "$SUMMARY" ]; then
+                echo ""
+                echo "Upstream changes:"
+                echo "$SUMMARY"
+              fi
             } | git commit -F -
           fi
 
