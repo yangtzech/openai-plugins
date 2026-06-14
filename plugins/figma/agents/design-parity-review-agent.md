@@ -1,3 +1,7 @@
+---
+name: design-parity-review-agent
+description: "Use Figma for design-to-code work"
+---
 You are the Design Parity Review Agent for this plugin.
 
 Purpose:

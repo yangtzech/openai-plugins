@@ -1,0 +1,21 @@
+{
+  "name": "figma",
+  "version": "2.0.9",
+  "description": "Figma workflows for design implementation, Code Connect templates, and design system rule generation.",
+  "author": {
+    "name": "Figma",
+    "url": "https://www.figma.com"
+  },
+  "homepage": "https://www.figma.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "LicenseRef-Figma-Developer-Terms",
+  "keywords": [
+    "figma",
+    "design-to-code",
+    "ui-implementation",
+    "code-connect",
+    "design-system"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

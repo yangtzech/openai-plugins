@@ -1,0 +1,2665 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "openai-plugins",
+  "description": "Curated collection of 174+ Codex plugins for Claude Code — covering developer tools, productivity, communication, finance, design, data analytics, AI/ML, and more.",
+  "owner": {
+    "name": "OpenAI",
+    "url": "https://openai.com"
+  },
+  "homepage": "https://github.com/yangtzech/openai-plugins",
+  "plugins": [
+    {
+      "name": "actively",
+      "description": "Account intelligence and prospecting signals from Actively",
+      "source": "./plugins/actively",
+      "version": "1.0.2",
+      "author": {
+        "name": "Actively",
+        "url": "https://www.actively.ai"
+      },
+      "homepage": "https://www.actively.ai"
+    },
+    {
+      "name": "aiera",
+      "description": "Earnings calls, transcripts, financial events, and market commentary",
+      "source": "./plugins/aiera",
+      "version": "1.0.2",
+      "author": {
+        "name": "Aiera",
+        "url": "https://www.aiera.com"
+      },
+      "homepage": "https://www.aiera.com"
+    },
+    {
+      "name": "airtable",
+      "description": "Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, or a custom business app. It combines structured data with multiplayer visual surfaces (grid, kanban, calendar, gallery, timeline) humans and agents share — plus sync integrations to Jira, Salesforce, Zendesk, Google Drive, Databricks, and the rest of your stack, all backed by enterprise governance. This plugin makes Codex fluent in Airtable: creating bases and schema, working with records, and sharing UI for collaboration. Uses the Airtable app connector.",
+      "source": "./plugins/airtable",
+      "version": "0.1.2",
+      "author": {
+        "name": "Airtable",
+        "url": "https://www.airtable.com"
+      },
+      "keywords": [
+        "airtable",
+        "database",
+        "relational-database",
+        "application-database",
+        "data-store",
+        "persistence",
+        "crud",
+        "product",
+        "product-ops",
+        "crm",
+        "sales",
+        "marketing",
+        "operations",
+        "hr",
+        "hiring",
+        "project-management",
+        "roadmap",
+        "customer-success",
+        "nocode",
+        "low-code",
+        "spreadsheet",
+        "collaboration",
+        "real-time",
+        "governance",
+        "workflow",
+        "automation",
+        "internal-tools",
+        "mcp",
+        "content"
+      ],
+      "homepage": "https://www.airtable.com"
+    },
+    {
+      "name": "alation",
+      "description": "Data catalog search, lineage, governance, and documentation from Alation",
+      "source": "./plugins/alation",
+      "version": "1.0.2",
+      "author": {
+        "name": "Alation",
+        "url": "https://www.alation.com"
+      },
+      "homepage": "https://www.alation.com"
+    },
+    {
+      "name": "alpaca",
+      "description": "Stop watching the markets.",
+      "source": "./plugins/alpaca",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://alpaca.markets/",
+        "name": "Alpaca"
+      },
+      "homepage": "https://alpaca.markets/"
+    },
+    {
+      "name": "amplitude",
+      "description": "Product analytics and funnels",
+      "source": "./plugins/amplitude",
+      "version": "1.0.2",
+      "author": {
+        "name": "Amplitude"
+      }
+    },
+    {
+      "name": "apollo",
+      "description": "B2B prospecting, account research, contacts, and outreach lists",
+      "source": "./plugins/apollo",
+      "version": "1.0.2",
+      "author": {
+        "name": "Apollo",
+        "url": "https://www.apollo.io"
+      },
+      "homepage": "https://www.apollo.io"
+    },
+    {
+      "name": "asana",
+      "description": "Work with your Asana tasks, subtasks, comments, due dates, and project details to create summaries, understand priorities, and prepare clear status updates.",
+      "source": "./plugins/asana",
+      "version": "0.1.2",
+      "author": {
+        "name": "Asana, Inc.",
+        "url": "https://asana.com"
+      },
+      "keywords": [
+        "asana",
+        "tasks",
+        "project-management",
+        "productivity",
+        "collaboration",
+        "work-management"
+      ],
+      "homepage": "https://asana.com"
+    },
+    {
+      "name": "atlassian-rovo",
+      "description": "Manage Jira and Confluence fast",
+      "source": "./plugins/atlassian-rovo",
+      "version": "1.0.2",
+      "author": {
+        "name": "Atlassian",
+        "url": "https://www.atlassian.com"
+      },
+      "keywords": [
+        "atlassian"
+      ],
+      "homepage": "https://www.atlassian.com"
+    },
+    {
+      "name": "attio",
+      "description": "Attio connects Codex directly to your CRM workspace, letting you manage customer relationships through na...",
+      "source": "./plugins/attio",
+      "version": "1.0.2",
+      "author": {
+        "name": "Attio Ltd",
+        "url": "https://attio.com"
+      },
+      "homepage": "https://attio.com"
+    },
+    {
+      "name": "base44",
+      "description": "Build and deploy Base44 full-stack apps with CLI project management and JavaScript/TypeScript SDK development skills",
+      "source": "./plugins/base44",
+      "version": "1.0.2-beta.1",
+      "author": {
+        "name": "base44",
+        "url": "https://base44.com"
+      },
+      "keywords": [
+        "base44",
+        "full-stack",
+        "sdk",
+        "cli",
+        "deployment",
+        "entities",
+        "backend-functions",
+        "javascript",
+        "typescript"
+      ],
+      "homepage": "https://docs.base44.com"
+    },
+    {
+      "name": "binance",
+      "description": "Binance for Codex lets you access and explore Binance public, read-only market data using natural language.",
+      "source": "./plugins/binance",
+      "version": "1.0.2",
+      "author": {
+        "name": "Binance",
+        "url": "https://www.binance.com"
+      },
+      "homepage": "https://www.binance.com"
+    },
+    {
+      "name": "biorender",
+      "description": "BioRender helps scientists create professional figures in minutes.",
+      "source": "./plugins/biorender",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://biorender.com/",
+        "name": "BioRender"
+      },
+      "homepage": "https://biorender.com/"
+    },
+    {
+      "name": "box",
+      "description": "Search and reference your documents",
+      "source": "./plugins/box",
+      "version": "0.0.3",
+      "author": {
+        "name": "OpenAI",
+        "url": "https://www.box.com/home"
+      },
+      "homepage": "https://www.box.com/home"
+    },
+    {
+      "name": "brand24",
+      "description": "The Brand24 app in Codex lets marketing and PR teams instantly explore brand mentions, sentiment, and med...",
+      "source": "./plugins/brand24",
+      "version": "1.0.2",
+      "author": {
+        "name": "Brand24 Global Inc.",
+        "url": "https://brand24.com"
+      },
+      "homepage": "https://brand24.com"
+    },
+    {
+      "name": "brex",
+      "description": "Connect Brex to Codex and review your company finances through natural conversation — at Codex speed.",
+      "source": "./plugins/brex",
+      "version": "1.0.2",
+      "author": {
+        "name": "Brex Inc.",
+        "url": "https://brex.com"
+      },
+      "homepage": "https://brex.com"
+    },
+    {
+      "name": "brighthire",
+      "description": "Connect Codex to BrightHire interview intelligence data through the BrightHire app connector.",
+      "source": "./plugins/brighthire",
+      "version": "0.1.0",
+      "author": {
+        "name": "BrightHire",
+        "email": "support@brighthire.com",
+        "url": "https://www.brighthire.com"
+      },
+      "keywords": [
+        "brighthire",
+        "interviews",
+        "hiring",
+        "recruiting",
+        "codex"
+      ],
+      "homepage": "https://www.brighthire.com"
+    },
+    {
+      "name": "build-ios-apps",
+      "description": "Build iOS apps with workflows for App Intents, SwiftUI UI work, Simulator mirroring in the Codex in-app browser, performance profiling, leak investigation, and simulator debugging.",
+      "source": "./plugins/build-ios-apps",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "ios",
+        "swift",
+        "swiftui",
+        "app-intents",
+        "shortcuts",
+        "siri",
+        "spotlight",
+        "xcode",
+        "performance",
+        "debugging",
+        "previews"
+      ],
+      "homepage": "https://openai.com/"
+    },
+    {
+      "name": "build-macos-apps",
+      "description": "Build, run, test, debug, instrument, and implement local macOS apps using Xcode, SwiftUI, AppKit interop, unified logging, and shell-first desktop workflows.",
+      "source": "./plugins/build-macos-apps",
+      "version": "0.1.4",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "macos",
+        "swift",
+        "swiftui",
+        "appkit",
+        "xcode",
+        "swiftpm",
+        "debugging",
+        "codesign",
+        "logging",
+        "telemetry",
+        "oslog"
+      ],
+      "homepage": "https://openai.com/"
+    },
+    {
+      "name": "build-web-apps",
+      "description": "Build web apps with frontend asset design, browser testing, UI components, payments, and database guidance.",
+      "source": "./plugins/build-web-apps",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "build-web-apps",
+        "build",
+        "product-apps",
+        "frontend",
+        "image-generation",
+        "browser-testing",
+        "frontend-debugging",
+        "stripe",
+        "supabase",
+        "shadcn",
+        "full-stack",
+        "frontend-qa"
+      ],
+      "homepage": "https://openai.com/"
+    },
+    {
+      "name": "build-web-data-visualization",
+      "description": "Design, critique, implement, test, and export web data visualizations in Codex, including charts, maps, dashboards, Gantt, UML, scrollytelling, reports, slides, mobile views, shareable state, and advanced WebGL concepts.",
+      "source": "./plugins/build-web-data-visualization",
+      "version": "0.1.21",
+      "author": {
+        "name": "OpenAI"
+      },
+      "keywords": [
+        "build-web-data-visualization",
+        "web-data-visualization",
+        "data-visualization",
+        "charts",
+        "dashboards",
+        "maps",
+        "geospatial",
+        "vega-lite",
+        "observable-plot",
+        "d3",
+        "canvas",
+        "webgl",
+        "threejs",
+        "react",
+        "nextjs",
+        "typescript",
+        "svg",
+        "accessibility",
+        "testing",
+        "visual-regression",
+        "reports",
+        "slides",
+        "infographics",
+        "scrollytelling",
+        "parallax",
+        "gantt",
+        "uml",
+        "software-architecture",
+        "graph-layout",
+        "node-link",
+        "mobile",
+        "responsive",
+        "shareable-state",
+        "visual-design",
+        "visual-design-contract",
+        "color-contrast",
+        "uncertainty",
+        "export",
+        "diagrams",
+        "operational-workspaces",
+        "humanitarian",
+        "geopolitical"
+      ],
+      "homepage": "https://openai.com/"
+    },
+    {
+      "name": "calendly",
+      "description": "Search Calendly events and availability so Codex can reason about meetings and scheduling.",
+      "source": "./plugins/calendly",
+      "version": "1.0.2",
+      "author": {
+        "name": "Calendly",
+        "url": "https://calendly.com"
+      },
+      "keywords": [
+        "calendly",
+        "calendar",
+        "scheduling",
+        "meetings",
+        "availability",
+        "events"
+      ],
+      "homepage": "https://calendly.com"
+    },
+    {
+      "name": "canva",
+      "description": "Search, create, edit designs",
+      "source": "./plugins/canva",
+      "version": "1.0.2",
+      "author": {
+        "name": "Canva",
+        "url": "https://www.canva.com"
+      },
+      "homepage": "https://www.canva.com"
+    },
+    {
+      "name": "carta-crm",
+      "description": "Carta CRM helps investment teams stay on top of deal flow by keeping deals, companies, and relationships in...",
+      "source": "./plugins/carta-crm",
+      "version": "1.0.2",
+      "author": {
+        "name": "Carta Inc.",
+        "url": "https://carta.com"
+      },
+      "homepage": "https://carta.com"
+    },
+    {
+      "name": "catalyst-by-zoho",
+      "description": "Extend Codex with Catalyst by Zoho's capabilities.",
+      "source": "./plugins/catalyst-by-zoho",
+      "version": "1.0.1",
+      "author": {
+        "name": "Catalyst by Zoho",
+        "email": "support@zohocatalyst.com",
+        "url": "https://catalyst.zoho.com/"
+      },
+      "keywords": [
+        "zoho",
+        "catalyst",
+        "serverless",
+        "mcp",
+        "cloud"
+      ],
+      "homepage": "https://catalyst.zoho.com/"
+    },
+    {
+      "name": "cb-insights",
+      "description": "Unleash Codex as your private markets research agent.",
+      "source": "./plugins/cb-insights",
+      "version": "1.0.2",
+      "author": {
+        "name": "CB Insights",
+        "url": "https://cbinsights.com"
+      },
+      "homepage": "https://cbinsights.com"
+    },
+    {
+      "name": "channel99",
+      "description": "Channel99 real time go to market intelligence connects Codex directly to Channel99’s performance marketin...",
+      "source": "./plugins/channel99",
+      "version": "1.0.2",
+      "author": {
+        "name": "Channel99 Inc. ",
+        "url": "https://www.channel99.com/"
+      },
+      "homepage": "https://www.channel99.com/"
+    },
+    {
+      "name": "chronograph",
+      "description": "Private capital portfolio monitoring, fund metrics, and company updates",
+      "source": "./plugins/chronograph",
+      "version": "1.0.2",
+      "author": {
+        "name": "Chronograph",
+        "url": "https://www.chronograph.pe"
+      },
+      "homepage": "https://www.chronograph.pe"
+    },
+    {
+      "name": "circleback",
+      "description": "Circleback helps teams get the most out of every conversation with AI-powered meeting notes, action items,...",
+      "source": "./plugins/circleback",
+      "version": "1.0.2",
+      "author": {
+        "name": "Circleback AI, Inc.",
+        "url": "https://circleback.ai"
+      },
+      "homepage": "https://circleback.ai"
+    },
+    {
+      "name": "circleci",
+      "description": "Build, test, and deploy any application",
+      "source": "./plugins/circleci",
+      "version": "1.0.3",
+      "author": {
+        "name": "CircleCI",
+        "url": "https://circleci.com"
+      },
+      "keywords": [
+        "circleci",
+        "ci/cd",
+        "ci"
+      ],
+      "homepage": "https://circleci.com"
+    },
+    {
+      "name": "claude-code-plugin-creator",
+      "description": "Create, scaffold, and validate Claude Code plugins with skills, agents, hooks, MCP servers, LSP servers, monitors, and more.",
+      "source": "./plugins/claude-code-plugin-creator",
+      "version": "1.0.0",
+      "author": {
+        "name": "openai-plugins"
+      },
+      "keywords": [
+        "plugin",
+        "scaffold",
+        "development",
+        "claude-code"
+      ]
+    },
+    {
+      "name": "clay",
+      "description": "Find, enrich, and organize GTM accounts, contacts, and prospecting workflows from Clay.",
+      "source": "./plugins/clay",
+      "version": "1.0.2",
+      "author": {
+        "name": "Clay",
+        "url": "https://www.clay.com"
+      },
+      "keywords": [
+        "clay",
+        "gtm",
+        "sales",
+        "prospecting",
+        "lead-enrichment",
+        "contacts",
+        "accounts"
+      ],
+      "homepage": "https://www.clay.com"
+    },
+    {
+      "name": "clickup",
+      "description": "Turn Codex into your ClickUp command center.",
+      "source": "./plugins/clickup",
+      "version": "1.0.2",
+      "author": {
+        "name": "ClickUp"
+      }
+    },
+    {
+      "name": "close",
+      "description": "CRM leads, opportunities, activities, and sales pipeline context",
+      "source": "./plugins/close",
+      "version": "1.0.2",
+      "author": {
+        "name": "Close",
+        "url": "https://www.close.com"
+      },
+      "homepage": "https://www.close.com"
+    },
+    {
+      "name": "cloudflare",
+      "description": "Cloudflare platform plugin with curated skills for Workers, Wrangler, and Agents SDK plus the official Cloudflare API MCP server.",
+      "source": "./plugins/cloudflare",
+      "version": "0.1.2",
+      "author": {
+        "name": "Cloudflare",
+        "url": "https://workers.cloudflare.com/"
+      },
+      "keywords": [
+        "cloudflare",
+        "workflow",
+        "deployment",
+        "edge-functions",
+        "edge",
+        "analytics",
+        "wrangler",
+        "agents-sdk",
+        "serverless",
+        "ai-gateway"
+      ],
+      "homepage": "https://workers.cloudflare.com/"
+    },
+    {
+      "name": "cloudinary",
+      "description": "Manage, search, and transform your Cloudinary media library — directly from Codex.",
+      "source": "./plugins/cloudinary",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://cloudinary.com/",
+        "name": "Cloudinary"
+      },
+      "homepage": "https://cloudinary.com/"
+    },
+    {
+      "name": "coderabbit",
+      "description": "AI-powered code review in Codex, powered by CodeRabbit.",
+      "source": "./plugins/coderabbit",
+      "version": "1.1.3",
+      "author": {
+        "name": "CodeRabbit AI",
+        "email": "support@coderabbit.ai",
+        "url": "https://coderabbit.ai"
+      },
+      "keywords": [
+        "code-review",
+        "ai",
+        "coderabbit",
+        "codex"
+      ],
+      "homepage": "https://docs.coderabbit.ai/cli/overview"
+    },
+    {
+      "name": "codex-security",
+      "description": "Codex Security workflows for security scans, analysis, and investigation.",
+      "source": "./plugins/codex-security",
+      "version": "0.1.8",
+      "author": {
+        "name": "OpenAI"
+      },
+      "keywords": [
+        "security",
+        "code-review",
+        "diff-review",
+        "appsec",
+        "threat-modeling"
+      ],
+      "homepage": "https://developers.openai.com/codex/security"
+    },
+    {
+      "name": "cogedim",
+      "description": "Cogedim is one of France's leading real estate developers.",
+      "source": "./plugins/cogedim",
+      "version": "1.0.2",
+      "author": {
+        "name": "ALTAREA PROMOTION MANAGEMENT",
+        "url": "https://www.cogedim.com"
+      },
+      "homepage": "https://www.cogedim.com"
+    },
+    {
+      "name": "common-room",
+      "description": "Embed complete buyer intelligence directly within Codex.",
+      "source": "./plugins/common-room",
+      "version": "1.0.3",
+      "author": {
+        "name": "Common Room",
+        "url": "https://commonroom.io"
+      },
+      "homepage": "https://commonroom.io"
+    },
+    {
+      "name": "conductor",
+      "description": "The Conductor MCP server retrieves proprietary performance metrics regarding a brand's visibility, sentimen...",
+      "source": "./plugins/conductor",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://www.conductor.com/",
+        "name": "Conductor Inc."
+      },
+      "homepage": "https://www.conductor.com/"
+    },
+    {
+      "name": "convex",
+      "description": "Add a reactive, type-safe backend, database, server functions, and scaling guidance to JavaScript and TypeScript apps with Convex.",
+      "source": "./plugins/convex",
+      "version": "0.1.2",
+      "author": {
+        "name": "Convex, Inc.",
+        "email": "support@convex.dev",
+        "url": "https://www.convex.dev"
+      },
+      "keywords": [
+        "convex",
+        "backend",
+        "database",
+        "realtime",
+        "reactive",
+        "websocket",
+        "auth",
+        "storage",
+        "scheduler",
+        "cron",
+        "server functions",
+        "crud",
+        "full-stack",
+        "typescript",
+        "javascript",
+        "react",
+        "nextjs",
+        "expo",
+        "mobile",
+        "mcp"
+      ],
+      "homepage": "https://chatgpt.com/apps/convex/asdk_app_6a0faef988b48191b843bac5cd170a9e"
+    },
+    {
+      "name": "coupler-io",
+      "description": "Analyze multi-channel marketing, financial, sales, e-commerce, and other business data within Codex by co...",
+      "source": "./plugins/coupler-io",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://www.coupler.io/",
+        "name": "Coupler.io"
+      },
+      "homepage": "https://www.coupler.io/"
+    },
+    {
+      "name": "coveo",
+      "description": "Search your enterprise content",
+      "source": "./plugins/coveo",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://www.coveo.com",
+        "name": "Coveo"
+      },
+      "homepage": "https://www.coveo.com"
+    },
+    {
+      "name": "cube",
+      "description": "With the Cube MCP Server, you can: - Query live Cube data from actuals, budgets, forecasts, variances, and...",
+      "source": "./plugins/cube",
+      "version": "1.0.2",
+      "author": {
+        "name": "Cube",
+        "url": "https://www.cubesoftware.com/"
+      },
+      "homepage": "https://www.cubesoftware.com/"
+    },
+    {
+      "name": "daloopa",
+      "description": "Financial analysis skills powered by Daloopa's institutional-grade data.",
+      "source": "./plugins/daloopa",
+      "version": "1.0.3",
+      "author": {
+        "name": "Daloopa",
+        "url": "https://daloopa.com"
+      },
+      "keywords": [
+        "finance",
+        "equity-research",
+        "earnings",
+        "valuation",
+        "daloopa"
+      ],
+      "homepage": "https://daloopa.com"
+    },
+    {
+      "name": "datadog",
+      "description": "Investigate Datadog telemetry and workflows from Codex",
+      "source": "./plugins/datadog",
+      "version": "0.1.2",
+      "author": {
+        "name": "Datadog",
+        "url": "https://www.datadoghq.com/"
+      },
+      "homepage": "https://www.datadoghq.com/"
+    },
+    {
+      "name": "datasite",
+      "description": "Deal room documents, diligence materials, and Q&A workflows",
+      "source": "./plugins/datasite",
+      "version": "1.0.2",
+      "author": {
+        "name": "Datasite",
+        "url": "https://www.datasite.com"
+      },
+      "homepage": "https://www.datasite.com"
+    },
+    {
+      "name": "deepnote",
+      "description": "Use Deepnote's collaborative data workspace to explore data, automate notebooks and SQL workflows, and turn analysis into shareable results.",
+      "source": "./plugins/deepnote",
+      "version": "0.1.4",
+      "author": {
+        "name": "Deepnote",
+        "url": "https://deepnote.com"
+      },
+      "keywords": [
+        "deepnote",
+        "chatgpt-app",
+        "openai",
+        "notebooks",
+        "data",
+        "analytics"
+      ],
+      "homepage": "https://deepnote.com"
+    },
+    {
+      "name": "demandbase",
+      "description": "Demandbase integration with Codex gives sales, marketing, and GTM teams seamless access to rich B2B data...",
+      "source": "./plugins/demandbase",
+      "version": "1.0.2",
+      "author": {
+        "name": "Demandbase Inc",
+        "url": "https://www.demandbase.com"
+      },
+      "homepage": "https://www.demandbase.com"
+    },
+    {
+      "name": "dnb-finance-analytics",
+      "description": "Credit origination, portfolio management, company reports, and workflow tools from D&B Finance Analytics.",
+      "source": "./plugins/dnb-finance-analytics",
+      "version": "1.0.2",
+      "author": {
+        "name": "Dun & Bradstreet",
+        "url": "https://www.dnb.com/"
+      },
+      "keywords": [
+        "dnb",
+        "dun-bradstreet",
+        "finance-analytics",
+        "business-identity",
+        "company-data",
+        "firmographics",
+        "credit-risk",
+        "corporate-linkage",
+        "portfolio-management",
+        "credit-origination"
+      ],
+      "homepage": "https://www.dnb.com/"
+    },
+    {
+      "name": "docket",
+      "description": "Docket AI makes your sales knowledge your instant superpower.",
+      "source": "./plugins/docket",
+      "version": "1.0.2",
+      "author": {
+        "name": "Docket AI",
+        "url": "https://www.docket.io/"
+      },
+      "homepage": "https://www.docket.io/"
+    },
+    {
+      "name": "docusign",
+      "description": "Agreement envelopes, signing status, recipients, and contract dates",
+      "source": "./plugins/docusign",
+      "version": "1.0.2",
+      "author": {
+        "name": "Docusign",
+        "url": "https://www.docusign.com"
+      },
+      "homepage": "https://www.docusign.com"
+    },
+    {
+      "name": "domotz-preview",
+      "description": "Monitor and manage your network infrastructure through natural language.",
+      "source": "./plugins/domotz-preview",
+      "version": "1.0.2",
+      "author": {
+        "name": "Domotz",
+        "url": "https://www.domotz.com"
+      },
+      "homepage": "https://www.domotz.com"
+    },
+    {
+      "name": "dovetail",
+      "description": "Connect Dovetail inside Codex to turn customer feedback into decisions without leaving your conversation.",
+      "source": "./plugins/dovetail",
+      "version": "1.0.2",
+      "author": {
+        "name": "Dovetail",
+        "url": "https://dovetail.com"
+      },
+      "homepage": "https://dovetail.com"
+    },
+    {
+      "name": "dow-jones-factiva",
+      "description": "The Factiva Connector, enables authorized users to search Factiva’s global news archive, including premium...",
+      "source": "./plugins/dow-jones-factiva",
+      "version": "1.0.2",
+      "author": {
+        "name": "Factiva, Inc.",
+        "url": "https://www.dowjones.com/business-intelligence/factiva/"
+      },
+      "homepage": "https://www.dowjones.com/business-intelligence/factiva/"
+    },
+    {
+      "name": "egnyte",
+      "description": "Work with documents and files stored in Egnyte directly from Codex.",
+      "source": "./plugins/egnyte",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://www.egnyte.com",
+        "name": "Egnyte Inc"
+      },
+      "homepage": "https://www.egnyte.com"
+    },
+    {
+      "name": "expo",
+      "description": "Official Expo skills for building, deploying, upgrading, and debugging Expo and React Native apps.",
+      "source": "./plugins/expo",
+      "version": "1.0.2",
+      "author": {
+        "name": "Expo Team",
+        "email": "support@expo.dev",
+        "url": "https://expo.dev"
+      },
+      "keywords": [
+        "expo",
+        "react-native",
+        "expo-router",
+        "codex-run-actions",
+        "eas",
+        "mobile",
+        "ios",
+        "android",
+        "deployment",
+        "upgrades",
+        "native-modules"
+      ],
+      "homepage": "https://docs.expo.dev/skills/"
+    },
+    {
+      "name": "factset",
+      "description": "Financial data, estimates, market analytics, and research context",
+      "source": "./plugins/factset",
+      "version": "1.0.2",
+      "author": {
+        "name": "FactSet",
+        "url": "https://www.factset.com"
+      },
+      "homepage": "https://www.factset.com"
+    },
+    {
+      "name": "fal",
+      "description": "AI image and media generation workflows using Fal models",
+      "source": "./plugins/fal",
+      "version": "1.0.2",
+      "author": {
+        "name": "Fal",
+        "url": "https://fal.ai"
+      },
+      "homepage": "https://fal.ai"
+    },
+    {
+      "name": "figma",
+      "description": "Figma workflows for design implementation, Code Connect templates, and design system rule generation.",
+      "source": "./plugins/figma",
+      "version": "2.0.9",
+      "author": {
+        "name": "Figma",
+        "url": "https://www.figma.com"
+      },
+      "keywords": [
+        "figma",
+        "design-to-code",
+        "ui-implementation",
+        "code-connect",
+        "design-system"
+      ],
+      "homepage": "https://www.figma.com"
+    },
+    {
+      "name": "finn",
+      "description": "A FINN car subscription is a flexible way to stay mobile anytime - without long-term commitments like buyin...",
+      "source": "./plugins/finn",
+      "version": "1.0.3",
+      "author": {
+        "name": "FINN GmbH",
+        "url": "https://www.finn.com/de-DE"
+      },
+      "homepage": "https://www.finn.com/de-DE"
+    },
+    {
+      "name": "fireflies",
+      "description": "The Fireflies app brings your meetings and knowledge directly into Codex.",
+      "source": "./plugins/fireflies",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://fireflies.ai",
+        "name": "Fireflies"
+      },
+      "homepage": "https://fireflies.ai"
+    },
+    {
+      "name": "fiscal-ai",
+      "description": "Financial research, company fundamentals, filings, and market insights from Fiscal AI",
+      "source": "./plugins/fiscal-ai",
+      "version": "1.0.2",
+      "author": {
+        "name": "Fiscal AI",
+        "url": "https://fiscal.ai"
+      },
+      "homepage": "https://fiscal.ai"
+    },
+    {
+      "name": "fyxer",
+      "description": "Fyxer for Codex lets you write emails that sound like you, right from the chat.",
+      "source": "./plugins/fyxer",
+      "version": "1.0.2",
+      "author": {
+        "name": "Fyxer",
+        "url": "https://www.fyxer.com"
+      },
+      "homepage": "https://www.fyxer.com"
+    },
+    {
+      "name": "game-studio",
+      "description": "Design, prototype, and ship browser games with guided 2D and 3D workflows, asset pipelines, and playtesting support.",
+      "source": "./plugins/game-studio",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "games",
+        "phaser",
+        "threejs",
+        "react-three-fiber",
+        "gltf",
+        "rapier",
+        "webgl",
+        "sprites",
+        "playtest"
+      ],
+      "homepage": "https://openai.com/"
+    },
+    {
+      "name": "github",
+      "description": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
+      "source": "./plugins/github",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "github",
+        "pull-request",
+        "code-review",
+        "issues",
+        "ci",
+        "actions"
+      ],
+      "homepage": "https://github.com/"
+    },
+    {
+      "name": "gmail",
+      "description": "Work with Gmail using the configured Gmail app connector.",
+      "source": "./plugins/gmail",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "gmail",
+        "email",
+        "google"
+      ],
+      "homepage": "https://workspace.google.com/products/gmail/"
+    },
+    {
+      "name": "google-calendar",
+      "description": "Connect Google Calendar for scheduling, availability, daily briefs, and event management.",
+      "source": "./plugins/google-calendar",
+      "version": "1.2.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "google-calendar",
+        "calendar",
+        "agenda",
+        "daily-brief",
+        "scheduling",
+        "productivity"
+      ],
+      "homepage": "https://workspace.google.com/products/calendar/"
+    },
+    {
+      "name": "google-drive",
+      "description": "Use Google Drive as the single entrypoint for Drive, Docs, Sheets, and Slides work.",
+      "source": "./plugins/google-drive",
+      "version": "0.1.6",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "google-drive",
+        "google-docs",
+        "google-sheets",
+        "google-slides",
+        "productivity"
+      ],
+      "homepage": "https://workspace.google.com/products/drive/"
+    },
+    {
+      "name": "govtribe",
+      "description": "Search government contracts, awards, and vendors directly from Codex.",
+      "source": "./plugins/govtribe",
+      "version": "1.0.2",
+      "author": {
+        "name": "Government Executive Media Group LLC",
+        "url": "https://govtribe.com/"
+      },
+      "homepage": "https://govtribe.com/"
+    },
+    {
+      "name": "granola",
+      "description": "Granola MCP connects your meeting history to Codex so your assistant can pull real context from past conv...",
+      "source": "./plugins/granola",
+      "version": "1.0.2",
+      "author": {
+        "name": "Granola",
+        "url": "https://www.granola.ai"
+      },
+      "homepage": "https://www.granola.ai"
+    },
+    {
+      "name": "happenstance",
+      "description": "Happenstance searches your professional network using natural language to find the right people.",
+      "source": "./plugins/happenstance",
+      "version": "1.0.2",
+      "author": {
+        "name": "Happenstance, Inc.",
+        "url": "https://happenstance.ai"
+      },
+      "homepage": "https://happenstance.ai"
+    },
+    {
+      "name": "hebbia",
+      "description": "Document research, evidence-backed answers, and project analysis from Hebbia",
+      "source": "./plugins/hebbia",
+      "version": "1.0.2",
+      "author": {
+        "name": "Hebbia",
+        "url": "https://www.hebbia.ai"
+      },
+      "homepage": "https://www.hebbia.ai"
+    },
+    {
+      "name": "help-scout",
+      "description": "Connect to sync Help Scout mailboxes and conversations for use in Codex.",
+      "source": "./plugins/help-scout",
+      "version": "1.0.2",
+      "author": {
+        "name": "OpenAI",
+        "url": "https://www.helpscout.com/"
+      },
+      "homepage": "https://www.helpscout.com/"
+    },
+    {
+      "name": "heygen",
+      "description": "Create HeyGen avatar videos and personalized video messages. Build a persistent digital identity from a description or hosted photo URL, then generate presenter-led videos with your digital twin.",
+      "source": "./plugins/heygen",
+      "version": "2.2.3",
+      "author": {
+        "name": "HeyGen",
+        "email": "developers@heygen.com",
+        "url": "https://heygen.com"
+      },
+      "keywords": [
+        "heygen",
+        "avatar",
+        "identity",
+        "video",
+        "digital-twin",
+        "video-message",
+        "presenter",
+        "talking-head",
+        "ai-avatar",
+        "avatar-video"
+      ],
+      "homepage": "https://heygen.com"
+    },
+    {
+      "name": "hg-insights",
+      "description": "Access HG Insights revenue growth intelligence, account data, buyer intent, technographics, and GTM signals from Codex.",
+      "source": "./plugins/hg-insights",
+      "version": "1.0.2",
+      "author": {
+        "name": "HG Insights",
+        "url": "https://hginsights.com"
+      },
+      "keywords": [
+        "hg-insights",
+        "revenue-growth-intelligence",
+        "gtm",
+        "technographics",
+        "buyer-intent",
+        "account-intelligence"
+      ],
+      "homepage": "https://hginsights.com"
+    },
+    {
+      "name": "highlevel",
+      "description": "HighLevel gives agencies a unified CRM, automation, and client communication platform.",
+      "source": "./plugins/highlevel",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://www.gohighlevel.com",
+        "name": "HighLevel"
+      },
+      "homepage": "https://www.gohighlevel.com"
+    },
+    {
+      "name": "hostinger",
+      "description": "Hostinger Horizons lets you build real websites and apps just by describing what you want.",
+      "source": "./plugins/hostinger",
+      "version": "1.0.2",
+      "author": {
+        "name": "Hostinger",
+        "url": "https://hostinger.com"
+      },
+      "homepage": "https://hostinger.com"
+    },
+    {
+      "name": "hubspot",
+      "description": "Work with your HubSpot data to analyze patterns, create and update records, and manage your CRM operations.",
+      "source": "./plugins/hubspot",
+      "version": "2.0.2",
+      "author": {
+        "name": "HubSpot",
+        "url": "https://www.hubspot.com/"
+      },
+      "keywords": [
+        "hubspot",
+        "crm",
+        "sales",
+        "pipeline",
+        "customer-support"
+      ],
+      "homepage": "https://www.hubspot.com/"
+    },
+    {
+      "name": "hugging-face",
+      "description": "Inspect models, datasets, Spaces, and research",
+      "source": "./plugins/hugging-face",
+      "version": "1.0.2",
+      "author": {
+        "name": "Hugging Face",
+        "url": "https://huggingface.co"
+      },
+      "keywords": [
+        "hugging-face",
+        "models",
+        "datasets",
+        "spaces",
+        "machine-learning"
+      ],
+      "homepage": "https://huggingface.co"
+    },
+    {
+      "name": "hyperframes",
+      "description": "Write HTML, render video. Compositions, GSAP animations, captions, voiceovers, audio-reactive visuals, and website-to-video capture for HyperFrames.",
+      "source": "./plugins/hyperframes",
+      "version": "0.1.2",
+      "author": {
+        "name": "HeyGen",
+        "email": "hyperframes@heygen.com",
+        "url": "https://hyperframes.heygen.com"
+      },
+      "keywords": [
+        "hyperframes",
+        "video",
+        "html",
+        "gsap",
+        "animation",
+        "composition",
+        "rendering",
+        "captions",
+        "tts",
+        "audio-reactive"
+      ],
+      "homepage": "https://hyperframes.heygen.com"
+    },
+    {
+      "name": "intercom",
+      "description": "Customer conversations, contacts, tickets, and support workflows from Intercom",
+      "source": "./plugins/intercom",
+      "version": "1.0.2",
+      "author": {
+        "name": "Intercom",
+        "url": "https://www.intercom.com"
+      },
+      "homepage": "https://www.intercom.com"
+    },
+    {
+      "name": "jam",
+      "description": "Screen record with context",
+      "source": "./plugins/jam",
+      "version": "1.0.2",
+      "author": {
+        "name": "Jam",
+        "url": "https://jam.dev"
+      },
+      "homepage": "https://jam.dev"
+    },
+    {
+      "name": "keybid-puls",
+      "description": "Unlock the profitability of short-term rental investments with our ROI Calculator app, tailored for platfor...",
+      "source": "./plugins/keybid-puls",
+      "version": "1.0.2",
+      "author": {
+        "name": "KeyBid",
+        "url": "https://keybid.eu"
+      },
+      "homepage": "https://keybid.eu"
+    },
+    {
+      "name": "life-science-research",
+      "description": "General life-sciences research workflows with query routing, evidence synthesis, and optional parallel subagent analysis across genetics, omics, biology, chemistry, structure, clinical evidence, and public dataset discovery.",
+      "source": "./plugins/life-science-research",
+      "version": "1.0.2",
+      "author": {
+        "name": "OpenAI"
+      },
+      "keywords": [
+        "life-science",
+        "research",
+        "bioinformatics",
+        "human-genetics",
+        "functional-genomics",
+        "transcriptomics",
+        "proteomics",
+        "metabolomics",
+        "clinical-research",
+        "drug-discovery",
+        "skill-routing",
+        "evidence-synthesis",
+        "parallel-analysis",
+        "gwas",
+        "variant-interpretation",
+        "pathway-biology",
+        "protein-structure"
+      ],
+      "homepage": "https://github.com/openai/openai/tree/master/plugins/life-science-research"
+    },
+    {
+      "name": "linear",
+      "description": "Find and reference issues and projects.",
+      "source": "./plugins/linear",
+      "version": "0.0.2",
+      "author": {
+        "name": "OpenAI",
+        "url": "https://linear.app/"
+      },
+      "homepage": "https://linear.app/"
+    },
+    {
+      "name": "lovable",
+      "description": "Build and inspect Lovable app projects from connected workspace context",
+      "source": "./plugins/lovable",
+      "version": "1.0.2",
+      "author": {
+        "name": "Lovable",
+        "url": "https://lovable.dev"
+      },
+      "homepage": "https://lovable.dev"
+    },
+    {
+      "name": "lseg",
+      "description": "Financial market data, company intelligence, and news",
+      "source": "./plugins/lseg",
+      "version": "1.0.2",
+      "author": {
+        "name": "LSEG",
+        "url": "https://www.lseg.com"
+      },
+      "homepage": "https://www.lseg.com"
+    },
+    {
+      "name": "magicpath",
+      "description": "Use MagicPath to find, inspect, install, create, and edit UI components from Codex.",
+      "source": "./plugins/magicpath",
+      "version": "0.1.1",
+      "author": {
+        "name": "MagicPathAI",
+        "url": "https://github.com/MagicPathAI"
+      },
+      "keywords": [
+        "magicpath",
+        "codex",
+        "ui-components",
+        "design",
+        "react",
+        "tailwind"
+      ],
+      "homepage": "https://github.com/MagicPathAI/agent-skills"
+    },
+    {
+      "name": "marcopolo",
+      "description": "MarcoPolo spins up a secure container where Codex can work with your actual data.",
+      "source": "./plugins/marcopolo",
+      "version": "1.0.3",
+      "author": {
+        "name": "Immersa, Inc.",
+        "url": "https://marcopolo.dev"
+      },
+      "homepage": "https://marcopolo.dev"
+    },
+    {
+      "name": "mem",
+      "description": "Give Codex the full context of your second brain by connecting your Mem knowledge base.",
+      "source": "./plugins/mem",
+      "version": "1.0.2",
+      "author": {
+        "name": "Mem Labs, Inc.",
+        "url": "https://mem.ai"
+      },
+      "homepage": "https://mem.ai"
+    },
+    {
+      "name": "meticulate",
+      "description": "Company matching, firmographic lookup, and go-to-market account intelligence",
+      "source": "./plugins/meticulate",
+      "version": "1.0.2",
+      "author": {
+        "name": "Meticulate"
+      }
+    },
+    {
+      "name": "midpage",
+      "description": "Legal research, cases, statutes, regulations, and cited research memos",
+      "source": "./plugins/midpage",
+      "version": "1.0.2",
+      "author": {
+        "name": "Midpage",
+        "url": "https://www.midpage.ai"
+      },
+      "homepage": "https://www.midpage.ai"
+    },
+    {
+      "name": "mixpanel",
+      "description": "Query and analyze Mixpanel",
+      "source": "./plugins/mixpanel",
+      "version": "2.0.2",
+      "author": {
+        "name": "Mixpanel",
+        "url": "https://mixpanel.com/home"
+      },
+      "keywords": [
+        "mixpanel",
+        "analytics",
+        "segmentation",
+        "funnels",
+        "retention",
+        "events"
+      ],
+      "homepage": "https://mixpanel.com/home"
+    },
+    {
+      "name": "mixpanel-headless",
+      "description": "Analyze Mixpanel data with the mixpanel_headless Python SDK and Codex skills.",
+      "source": "./plugins/mixpanel-headless",
+      "version": "0.1.2",
+      "author": {
+        "name": "Mixpanel",
+        "url": "https://mixpanel.com/home"
+      },
+      "keywords": [
+        "mixpanel",
+        "analytics",
+        "product-analytics",
+        "python",
+        "data-science",
+        "funnels",
+        "retention",
+        "flows",
+        "dashboards"
+      ],
+      "homepage": "https://mixpanel.github.io/mixpanel-headless/"
+    },
+    {
+      "name": "monday-com",
+      "description": "A powerful MCP connector enabling AI agents to seamlessly interact with monday.com.",
+      "source": "./plugins/monday-com",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://monday.com",
+        "name": "Monday.com"
+      },
+      "homepage": "https://monday.com"
+    },
+    {
+      "name": "moody-s",
+      "description": "Credit ratings, entity intelligence, and research via Moody's GenAI-Ready Data.",
+      "source": "./plugins/moody-s",
+      "version": "1.0.2",
+      "author": {
+        "name": "Moody's",
+        "url": "https://www.moodys.com"
+      },
+      "keywords": [
+        "moodys",
+        "credit",
+        "ratings",
+        "research",
+        "risk",
+        "entity-intelligence",
+        "ownership",
+        "beneficial-ownership",
+        "corporate-structure",
+        "subsidiaries",
+        "financial-statements",
+        "company-filings",
+        "credit-opinion",
+        "scorecards",
+        "esg",
+        "sector-outlook",
+        "country-risk",
+        "peers",
+        "earnings-calls",
+        "news"
+      ],
+      "homepage": "https://www.moodys.com/web/en/us/genai/model-context-protocol.html"
+    },
+    {
+      "name": "morningstar",
+      "description": "Morningstar fund research plugin for screening, summarizing, and comparing funds and ETFs using the Morningstar ChatGPT app.",
+      "source": "./plugins/morningstar",
+      "version": "1.0.3",
+      "author": {
+        "name": "Morningstar",
+        "url": "https://www.morningstar.com"
+      },
+      "keywords": [
+        "morningstar",
+        "funds",
+        "etf",
+        "research",
+        "screening"
+      ],
+      "homepage": "https://www.morningstar.com"
+    },
+    {
+      "name": "motherduck",
+      "description": "Connect AI assistants to your MotherDuck data warehouse.",
+      "source": "./plugins/motherduck",
+      "version": "1.0.2",
+      "author": {
+        "name": "MotherDuck Corporation",
+        "url": "https://motherduck.com/"
+      },
+      "homepage": "https://motherduck.com/"
+    },
+    {
+      "name": "mt-newswires",
+      "description": "MT Newswires brings real-time global financial news directly into Codex — providing original, unbiased an...",
+      "source": "./plugins/mt-newswires",
+      "version": "1.0.2",
+      "author": {
+        "name": "MT Newswires",
+        "url": "https://www.mtnewswires.com"
+      },
+      "homepage": "https://www.mtnewswires.com"
+    },
+    {
+      "name": "myregistry-com",
+      "description": "MyRegistry.com helps make gift-giving easy for friends & family to get you the gifts you really want!",
+      "source": "./plugins/myregistry-com",
+      "version": "1.0.2",
+      "author": {
+        "name": "MyRegistry.com",
+        "url": "https://www.myregistry.com/"
+      },
+      "homepage": "https://www.myregistry.com/"
+    },
+    {
+      "name": "neon-postgres",
+      "description": "Manage Neon Serverless Postgres projects and databases with the neon-postgres agent skill and the Neon MCP Server",
+      "source": "./plugins/neon-postgres",
+      "version": "1.0.2",
+      "author": {
+        "name": "Neon",
+        "email": "andre@neon.tech",
+        "url": "https://neon.com"
+      },
+      "keywords": [
+        "neon",
+        "postgres",
+        "serverless",
+        "database",
+        "mcp",
+        "sql"
+      ],
+      "homepage": "https://neon.com/docs/ai/neon-mcp-server"
+    },
+    {
+      "name": "netlify",
+      "description": "Deploy projects and manage preview or production releases on Netlify.",
+      "source": "./plugins/netlify",
+      "version": "1.1.2",
+      "author": {
+        "name": "Netlify",
+        "url": "https://www.netlify.com"
+      },
+      "keywords": [
+        "netlify",
+        "deployment",
+        "hosting",
+        "preview",
+        "static-sites"
+      ],
+      "homepage": "https://www.netlify.com"
+    },
+    {
+      "name": "network-solutions",
+      "description": "The Network Solutions Domain Search Assistant makes finding an available domain fast, simple, and conversat...",
+      "source": "./plugins/network-solutions",
+      "version": "1.0.3",
+      "author": {
+        "name": "Network Solutions",
+        "url": "https://www.networksolutions.com/"
+      },
+      "homepage": "https://www.networksolutions.com/"
+    },
+    {
+      "name": "ngs-analysis",
+      "description": "Guided NGS intake, local execution, and public-pipeline routing for BCL, FASTQ, DNA variant, RNA-seq, single-cell, epigenomics, amplicon, and metagenomics analyses, with deeper decision skills for high-risk assay branches.",
+      "source": "./plugins/ngs-analysis",
+      "version": "1.0.3",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "ngs",
+        "sequencing",
+        "bioinformatics",
+        "fastq",
+        "bcl",
+        "rnaseq",
+        "scrnaseq",
+        "variant-calling",
+        "atacseq",
+        "chipseq",
+        "microbiome",
+        "metagenomics",
+        "pipeline-routing",
+        "nextflow",
+        "nf-core"
+      ],
+      "homepage": "https://openai.com/"
+    },
+    {
+      "name": "notion",
+      "description": "Notion workflows for implementation planning, research synthesis, meeting preparation, and knowledge capture.",
+      "source": "./plugins/notion",
+      "version": "0.1.3",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "notion",
+        "documentation",
+        "research",
+        "meeting-prep",
+        "knowledge-management",
+        "planning"
+      ],
+      "homepage": "https://www.notion.so/"
+    },
+    {
+      "name": "nvidia",
+      "description": "Skills for NVIDIAs ecosystem spans GPU acceleration, CUDA, AI agents, inference, robotics, Physical AI, Omniverse, and simulation. This plugin helps you understand the pieces, choose a path, validate your setup, and build practical NVIDIA-powered workflows.",
+      "source": "./plugins/nvidia",
+      "version": "1.0.2",
+      "author": {
+        "name": "NVIDIA",
+        "url": "https://github.com/NVIDIA/skills"
+      },
+      "keywords": [
+        "nvidia",
+        "gpu",
+        "cuda",
+        "ai-agents",
+        "inference",
+        "llm-serving",
+        "robotics",
+        "simulation",
+        "omniverse",
+        "openusd",
+        "digital-twin",
+        "physical-ai",
+        "cad"
+      ],
+      "homepage": "https://build.nvidia.com/skills/"
+    },
+    {
+      "name": "omni-analytics",
+      "description": "Query Omni using the same semantic model, permissions, and logic defined by your data team directly from Codex.",
+      "source": "./plugins/omni-analytics",
+      "version": "1.0.3",
+      "author": {
+        "name": "Omni Analytics",
+        "url": "https://www.omni.co"
+      },
+      "homepage": "https://www.omni.co"
+    },
+    {
+      "name": "openai-developers",
+      "description": "Build with OpenAI APIs, Agents SDK, and ChatGPT Apps, and create and save OpenAI API keys from Codex.",
+      "source": "./plugins/openai-developers",
+      "version": "1.2.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "openai-platform",
+        "api-key",
+        "agents-sdk",
+        "agents",
+        "chatgpt-apps",
+        "apps-sdk",
+        "mcp",
+        "submissions",
+        "codex"
+      ],
+      "homepage": "https://platform.openai.com/"
+    },
+    {
+      "name": "otter-ai",
+      "description": "The Otter.ai MCP server connects Codex to your meeting intelligence, enabling search and retrieval of transcripts, summaries, action items, and meeting metadata directly within your workflow.",
+      "source": "./plugins/otter-ai",
+      "version": "1.0.2",
+      "author": {
+        "name": "Otter.ai",
+        "url": "https://otter.ai"
+      },
+      "keywords": [
+        "otter",
+        "meetings",
+        "transcripts",
+        "summaries",
+        "action-items",
+        "productivity"
+      ],
+      "homepage": "https://otter.ai"
+    },
+    {
+      "name": "outlook-calendar",
+      "description": "Connect Outlook Calendar for scheduling, daily briefs, event prep, and safe meeting changes.",
+      "source": "./plugins/outlook-calendar",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "outlook-calendar",
+        "calendar",
+        "microsoft",
+        "scheduling",
+        "teams",
+        "daily-brief",
+        "meeting-prep"
+      ],
+      "homepage": "https://www.microsoft.com/en-us/microsoft-365/outlook/calendar-app"
+    },
+    {
+      "name": "outlook-email",
+      "description": "Work with Outlook Email using the configured Microsoft Outlook app connector.",
+      "source": "./plugins/outlook-email",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "outlook-email",
+        "email",
+        "microsoft"
+      ],
+      "homepage": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"
+    },
+    {
+      "name": "outreach",
+      "description": "Sales engagement, prospects, sequences, and deal activity context",
+      "source": "./plugins/outreach",
+      "version": "1.0.2",
+      "author": {
+        "name": "Outreach",
+        "url": "https://www.outreach.io"
+      },
+      "homepage": "https://www.outreach.io"
+    },
+    {
+      "name": "particl-market-research",
+      "description": "Particl Market Research helps teams answer ecommerce research questions directly in Codex.",
+      "source": "./plugins/particl-market-research",
+      "version": "1.0.2",
+      "author": {
+        "name": "Particl",
+        "url": "https://www.particl.com"
+      },
+      "homepage": "https://www.particl.com"
+    },
+    {
+      "name": "picsart",
+      "description": "Image editing, creative assets, and design workflows from Picsart",
+      "source": "./plugins/picsart",
+      "version": "1.0.2",
+      "author": {
+        "name": "Picsart",
+        "url": "https://picsart.com"
+      },
+      "homepage": "https://picsart.com"
+    },
+    {
+      "name": "pipedrive",
+      "description": "Connect to sync Pipedrive deals and contacts for use in Codex.",
+      "source": "./plugins/pipedrive",
+      "version": "1.0.2",
+      "author": {
+        "name": "OpenAI",
+        "url": "https://www.pipedrive.com/"
+      },
+      "homepage": "https://www.pipedrive.com/"
+    },
+    {
+      "name": "pitchbook",
+      "description": "PitchBook provides structured access to private capital market data across  companies, investors, funds, de...",
+      "source": "./plugins/pitchbook",
+      "version": "1.0.2",
+      "author": {
+        "url": "https://www.pitchbook.com",
+        "name": "PitchBook"
+      },
+      "homepage": "https://www.pitchbook.com"
+    },
+    {
+      "name": "plugin-eval",
+      "description": "Evaluate Codex skills and plugins from chat with a beginner-friendly start command, local-first reports, token budget explanations, and guided benchmarking.",
+      "source": "./plugins/plugin-eval",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI Codex",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "codex",
+        "plugin",
+        "skill",
+        "evaluation",
+        "quality",
+        "budget"
+      ],
+      "homepage": "https://openai.com/"
+    },
+    {
+      "name": "policynote",
+      "description": "Use the PolicyNote app to access structured policy and regulatory intelligence from around the world.",
+      "source": "./plugins/policynote",
+      "version": "1.0.2",
+      "author": {
+        "name": "FiscalNote",
+        "url": "https://fiscalnote.com/products/policynote-api"
+      },
+      "homepage": "https://fiscalnote.com/products/policynote-api"
+    },
+    {
+      "name": "posthog",
+      "description": "Query product analytics and manage feature flags, experiments, and errors in PostHog.",
+      "source": "./plugins/posthog",
+      "version": "0.1.2",
+      "author": {
+        "name": "PostHog",
+        "url": "https://posthog.com"
+      },
+      "keywords": [
+        "posthog",
+        "analytics",
+        "product-analytics",
+        "feature-flags",
+        "experiments",
+        "error-tracking",
+        "session-replay",
+        "surveys",
+        "llm-analytics",
+        "hogql",
+        "developer-tools"
+      ],
+      "homepage": "https://posthog.com/docs"
+    },
+    {
+      "name": "pylon",
+      "description": "Access Pylon's customer support platform directly from Codex to search, manage, and resolve customer issues.",
+      "source": "./plugins/pylon",
+      "version": "1.0.2",
+      "author": {
+        "name": "Pylon Labs Inc.",
+        "url": "https://www.usepylon.com/"
+      },
+      "homepage": "https://www.usepylon.com/"
+    },
+    {
+      "name": "quartr",
+      "description": "Access structured first-party IR data from over 14,500+ public companies across 65 markets Quartr delivers...",
+      "source": "./plugins/quartr",
+      "version": "1.0.2",
+      "author": {
+        "name": "Quartr",
+        "url": "https://quartr.com"
+      },
+      "homepage": "https://quartr.com"
+    },
+    {
+      "name": "quickbooks",
+      "description": "QuickBooks accounting, invoices, expenses, customers, and payment context",
+      "source": "./plugins/quickbooks",
+      "version": "1.0.2",
+      "author": {
+        "name": "QuickBooks",
+        "url": "https://quickbooks.intuit.com"
+      },
+      "homepage": "https://quickbooks.intuit.com"
+    },
+    {
+      "name": "quicknode",
+      "description": "Manage your Quicknode infrastructure directly in OpenAI.",
+      "source": "./plugins/quicknode",
+      "version": "1.0.2",
+      "author": {
+        "name": "Quicknode",
+        "url": "https://www.quicknode.com/"
+      },
+      "homepage": "https://www.quicknode.com/"
+    },
+    {
+      "name": "ranked-ai",
+      "description": "Ranked AI provides industry leading AI SEO & PPC software, with a fully managed service integrated into it.",
+      "source": "./plugins/ranked-ai",
+      "version": "1.0.2",
+      "author": {
+        "name": "Ranked AI, LLC",
+        "url": "https://www.ranked.ai"
+      },
+      "homepage": "https://www.ranked.ai"
+    },
+    {
+      "name": "razorpay",
+      "description": "Connect your Razorpay account to access your payment data through conversation.",
+      "source": "./plugins/razorpay",
+      "version": "1.0.2",
+      "author": {
+        "name": "Razorpay Software Private Limited",
+        "url": "https://razorpay.com/"
+      },
+      "homepage": "https://razorpay.com/"
+    },
+    {
+      "name": "read-ai",
+      "description": "Read AI brings your meeting intelligence directly into your AI workflows.",
+      "source": "./plugins/read-ai",
+      "version": "1.0.2",
+      "author": {
+        "name": "Read AI, Inc",
+        "url": "https://read.ai"
+      },
+      "homepage": "https://read.ai"
+    },
+    {
+      "name": "readwise",
+      "description": "The official app for Readwise and Reader.",
+      "source": "./plugins/readwise",
+      "version": "1.0.2",
+      "author": {
+        "name": "Readwise Inc.",
+        "url": "https://readwise.io"
+      },
+      "homepage": "https://readwise.io"
+    },
+    {
+      "name": "remotion",
+      "description": "Remotion video creation skills — best practices, animations, audio, captions, 3D, and more for building programmatic videos with React.",
+      "source": "./plugins/remotion",
+      "version": "1.0.2",
+      "author": {
+        "name": "Remotion",
+        "email": "hi@remotion.dev",
+        "url": "https://remotion.dev"
+      },
+      "keywords": [
+        "remotion",
+        "video",
+        "react",
+        "animation",
+        "composition",
+        "rendering",
+        "ffmpeg",
+        "captions",
+        "audio"
+      ],
+      "homepage": "https://remotion.dev"
+    },
+    {
+      "name": "render",
+      "description": "Skills for deploying, debugging, monitoring, and migrating apps on Render.",
+      "source": "./plugins/render",
+      "version": "0.1.2",
+      "author": {
+        "name": "Render",
+        "email": "support@render.com",
+        "url": "https://render.com"
+      },
+      "keywords": [
+        "render",
+        "deploy",
+        "cloud",
+        "blueprint",
+        "monitoring",
+        "debugging"
+      ],
+      "homepage": "https://github.com/renderinc/render-codex-plugin"
+    },
+    {
+      "name": "replit",
+      "description": "Work with Replit projects, apps, deployments, and workspace context",
+      "source": "./plugins/replit",
+      "version": "1.0.2",
+      "author": {
+        "name": "Replit",
+        "url": "https://replit.com"
+      },
+      "homepage": "https://replit.com"
+    },
+    {
+      "name": "responsive",
+      "description": "The Responsive App makes it easy to work with your organization’s data inside Codex.",
+      "source": "./plugins/responsive",
+      "version": "1.0.2",
+      "author": {
+        "name": "RFPIO Inc. (d/b/a Responsive)",
+        "url": "https://www.responsive.io"
+      },
+      "homepage": "https://www.responsive.io"
+    },
+    {
+      "name": "rox",
+      "description": "Access Rox revenue agents, account intelligence, and sales workflow automation from Codex.",
+      "source": "./plugins/rox",
+      "version": "1.0.3",
+      "author": {
+        "name": "Rox Data Corp",
+        "url": "https://www.rox.com"
+      },
+      "keywords": [
+        "rox",
+        "sales",
+        "revenue",
+        "gtm",
+        "crm",
+        "account-intelligence",
+        "prospecting"
+      ],
+      "homepage": "https://www.rox.com"
+    },
+    {
+      "name": "s-p",
+      "description": "Company financials, ratings context, market research, and industry data",
+      "source": "./plugins/s-p",
+      "version": "1.0.3",
+      "author": {
+        "name": "S&P Global",
+        "url": "https://www.spglobal.com"
+      },
+      "homepage": "https://www.spglobal.com"
+    },
+    {
+      "name": "scite",
+      "description": "Scite delivers answers grounded in peer-reviewed research you can verify.",
+      "source": "./plugins/scite",
+      "version": "1.0.2",
+      "author": {
+        "name": "Scite",
+        "url": "https://www.scite.ai"
+      },
+      "homepage": "https://www.scite.ai"
+    },
+    {
+      "name": "semrush",
+      "description": "The Semrush MCP provides structured, quantitative SEO and traffic data for domains, keywords, backlinks, an...",
+      "source": "./plugins/semrush",
+      "version": "1.0.2",
+      "author": {
+        "name": "Semrush Holdings, Inc.",
+        "url": "https://www.semrush.com/"
+      },
+      "homepage": "https://www.semrush.com/"
+    },
+    {
+      "name": "sendgrid",
+      "description": "Connector for interacting with the SendGrid email API.",
+      "source": "./plugins/sendgrid",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "url": "https://sendgrid.com/"
+      },
+      "homepage": "https://sendgrid.com/"
+    },
+    {
+      "name": "sentry",
+      "description": "Inspect recent issues and events in Sentry from Codex.",
+      "source": "./plugins/sentry",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "sentry",
+        "observability",
+        "triage"
+      ],
+      "homepage": "https://sentry.io/"
+    },
+    {
+      "name": "setu-bharat-connect-billpay",
+      "description": "This app helps you pay your utility bills through simple conversation.",
+      "source": "./plugins/setu-bharat-connect-billpay",
+      "version": "1.0.2",
+      "author": {
+        "name": "Setu",
+        "url": "https://setu.co/"
+      },
+      "homepage": "https://setu.co/"
+    },
+    {
+      "name": "sharepoint",
+      "description": "Work with SharePoint using the configured Microsoft SharePoint app connector.",
+      "source": "./plugins/sharepoint",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "sharepoint",
+        "documents",
+        "microsoft"
+      ],
+      "homepage": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration"
+    },
+    {
+      "name": "shopify",
+      "description": "Search Shopify docs, generate and validate GraphQL, Liquid, and UI extension code.",
+      "source": "./plugins/shopify",
+      "version": "1.3.2",
+      "author": {
+        "name": "Shopify",
+        "url": "https://shopify.dev/"
+      },
+      "keywords": [
+        "shopify",
+        "mcp",
+        "graphql",
+        "liquid",
+        "storefront",
+        "admin-api"
+      ],
+      "homepage": "https://github.com/Shopify/Shopify-AI-Toolkit"
+    },
+    {
+      "name": "shutterstock",
+      "description": "Search licensed stock images, videos, music, and creative assets",
+      "source": "./plugins/shutterstock",
+      "version": "1.0.2",
+      "author": {
+        "name": "Shutterstock",
+        "url": "https://www.shutterstock.com"
+      },
+      "homepage": "https://www.shutterstock.com"
+    },
+    {
+      "name": "signnow",
+      "description": "Get documents signed faster without switching between tools.",
+      "source": "./plugins/signnow",
+      "version": "1.0.2",
+      "author": {
+        "name": "airSlate Inc",
+        "url": "https://www.signnow.com"
+      },
+      "homepage": "https://www.signnow.com"
+    },
+    {
+      "name": "similarweb",
+      "description": "Digital market intelligence and web traffic analytics",
+      "source": "./plugins/similarweb",
+      "version": "1.0.2",
+      "author": {
+        "name": "Similarweb",
+        "url": "https://www.similarweb.com"
+      },
+      "homepage": "https://www.similarweb.com"
+    },
+    {
+      "name": "skywatch",
+      "description": "Search and explore satellite imagery from top providers including Vantor, Planet, Airbus, and more, all in...",
+      "source": "./plugins/skywatch",
+      "version": "1.0.2",
+      "author": {
+        "name": "SkyWatch Space Applications Inc.",
+        "url": "https://skywatch.com"
+      },
+      "homepage": "https://skywatch.com"
+    },
+    {
+      "name": "slack",
+      "description": "Work with Slack using the configured Slack integration.",
+      "source": "./plugins/slack",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "slack",
+        "chat",
+        "collaboration"
+      ],
+      "homepage": "https://slack.com/"
+    },
+    {
+      "name": "statsig",
+      "description": "Bring your Statsig workspace into Codex.",
+      "source": "./plugins/statsig",
+      "version": "2.0.2",
+      "author": {
+        "name": "Statsig, LLC",
+        "url": "https://statsig.com"
+      },
+      "homepage": "https://statsig.com"
+    },
+    {
+      "name": "streak",
+      "description": "Streak is a CRM built directly into Gmail, so you can track deals, contacts, and workflows from your inbox.",
+      "source": "./plugins/streak",
+      "version": "1.0.2",
+      "author": {
+        "name": "Rewardly, Inc.",
+        "url": "https://www.streak.com"
+      },
+      "homepage": "https://www.streak.com"
+    },
+    {
+      "name": "stripe",
+      "description": "Payments and business tools",
+      "source": "./plugins/stripe",
+      "version": "1.0.2",
+      "author": {
+        "name": "Stripe",
+        "url": "https://stripe.com"
+      },
+      "homepage": "https://stripe.com"
+    },
+    {
+      "name": "supabase",
+      "description": "Access your Supabase projects and perform tasks like managing tables, fetching config, and querying data.",
+      "source": "./plugins/supabase",
+      "version": "0.1.6",
+      "author": {
+        "name": "Supabase",
+        "email": "support@supabase.io",
+        "url": "https://supabase.com"
+      },
+      "keywords": [
+        "supabase",
+        "postgres",
+        "database",
+        "backend",
+        "mcp"
+      ],
+      "homepage": "https://supabase.com"
+    },
+    {
+      "name": "superhuman",
+      "description": "Connect Codex to the official Superhuman Mail MCP server for email and calendar workflows.",
+      "source": "./plugins/superhuman",
+      "version": "0.1.2",
+      "author": {
+        "name": "Superhuman",
+        "url": "https://superhuman.com/"
+      },
+      "keywords": [
+        "superhuman",
+        "mail",
+        "email",
+        "calendar",
+        "mcp"
+      ],
+      "homepage": "https://help.superhuman.com/hc/en-us/articles/49810745762067-Superhuman-Mail-MCP-Server"
+    },
+    {
+      "name": "superpowers",
+      "description": "An agentic skills framework & software development methodology that works: planning, TDD, debugging, and collaboration workflows.",
+      "source": "./plugins/superpowers",
+      "version": "5.1.3",
+      "author": {
+        "name": "Jesse Vincent",
+        "email": "jesse@fsck.com",
+        "url": "https://github.com/obra"
+      },
+      "keywords": [
+        "brainstorming",
+        "subagent-driven-development",
+        "skills",
+        "planning",
+        "tdd",
+        "debugging",
+        "code-review",
+        "workflow"
+      ],
+      "homepage": "https://github.com/obra/superpowers"
+    },
+    {
+      "name": "taxdown",
+      "description": "TaxDown te ayuda a resolver dudas fiscales en España, tanto para particulares como autónomos: deducciones,...",
+      "source": "./plugins/taxdown",
+      "version": "1.0.2",
+      "author": {
+        "name": "TAXDOWN S.L.",
+        "url": "https://taxdown.es/"
+      },
+      "homepage": "https://taxdown.es/"
+    },
+    {
+      "name": "teams",
+      "description": "Work with Teams using the configured Microsoft Teams app connector.",
+      "source": "./plugins/teams",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "teams",
+        "chat",
+        "microsoft"
+      ],
+      "homepage": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+    },
+    {
+      "name": "teamwork-com",
+      "description": "Connect to sync Teamwork projects and tasks for use in Codex.",
+      "source": "./plugins/teamwork-com",
+      "version": "1.0.2",
+      "author": {
+        "name": "OpenAI",
+        "url": "https://www.teamwork.com/"
+      },
+      "homepage": "https://www.teamwork.com/"
+    },
+    {
+      "name": "temporal",
+      "description": "Comprehensive skill for the entire Temporal lifecycle — developing applications, using the Temporal CLI, running and managing Temporal Server, and working with Temporal Cloud.",
+      "source": "./plugins/temporal",
+      "version": "0.2.2",
+      "author": {
+        "name": "Temporal",
+        "url": "https://temporal.io/"
+      },
+      "keywords": [
+        "temporal",
+        "workflow",
+        "durable-execution",
+        "python",
+        "typescript",
+        "go",
+        "java",
+        "microservices",
+        "distributed-systems"
+      ],
+      "homepage": "https://temporal.io/"
+    },
+    {
+      "name": "test-android-apps",
+      "description": "Test Android apps with emulator workflows for reproduction, screenshots, UI inspection, log capture, and performance profiling.",
+      "source": "./plugins/test-android-apps",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "android",
+        "adb",
+        "emulator",
+        "qa",
+        "logcat",
+        "uiautomator",
+        "performance",
+        "simpleperf",
+        "perfetto",
+        "memory",
+        "leaks",
+        "heap"
+      ],
+      "homepage": "https://openai.com/"
+    },
+    {
+      "name": "third-bridge",
+      "description": "Seamlessly incorporate critical context and trusted insights from industry experts as part of your financia...",
+      "source": "./plugins/third-bridge",
+      "version": "1.0.2",
+      "author": {
+        "name": "Third Bridge Group",
+        "url": "https://www.thirdbridge.com"
+      },
+      "homepage": "https://www.thirdbridge.com"
+    },
+    {
+      "name": "thoughtspot",
+      "description": "Business intelligence answers, dashboards, metrics, and revenue analysis",
+      "source": "./plugins/thoughtspot",
+      "version": "1.0.2",
+      "author": {
+        "name": "ThoughtSpot",
+        "url": "https://www.thoughtspot.com"
+      },
+      "homepage": "https://www.thoughtspot.com"
+    },
+    {
+      "name": "tinman-ai",
+      "description": "Tinman AI helps loan officers and underwriters quickly underwrite home financing scenarios and answer compl...",
+      "source": "./plugins/tinman-ai",
+      "version": "1.0.2",
+      "author": {
+        "name": "Better",
+        "url": "https://better.com"
+      },
+      "homepage": "https://better.com"
+    },
+    {
+      "name": "twilio-developer-kit",
+      "description": "Twilio Skills provide procedural knowledge for AI coding agents — which APIs to use, in what order, and what to avoid. Covers Messaging, Voice, Verify, SendGrid, and 30+ products.",
+      "source": "./plugins/twilio-developer-kit",
+      "version": "0.2.2",
+      "author": {
+        "name": "Twilio",
+        "url": "https://www.twilio.com"
+      },
+      "keywords": [
+        "twilio",
+        "sms",
+        "voice",
+        "whatsapp",
+        "rcs",
+        "messaging",
+        "verify",
+        "sendgrid",
+        "email",
+        "compliance",
+        "conversation-relay",
+        "conversation-memory",
+        "conversation-intelligence",
+        "conversation-orchestrator",
+        "agent-connect",
+        "enterprise-knowledge",
+        "apple-messages-for-business",
+        "api"
+      ],
+      "homepage": "https://www.twilio.com/docs"
+    },
+    {
+      "name": "united-rentals",
+      "description": "Get the right equipment for the job without guesswork.",
+      "source": "./plugins/united-rentals",
+      "version": "1.0.2",
+      "author": {
+        "name": "United Rentals",
+        "url": "https://www.unitedrentals.com"
+      },
+      "homepage": "https://www.unitedrentals.com"
+    },
+    {
+      "name": "vantage",
+      "description": "Vantage is a cloud observability and optimization platform that aggregates cloud infrastructure costs acros...",
+      "source": "./plugins/vantage",
+      "version": "1.0.2",
+      "author": {
+        "name": "Vantage",
+        "url": "https://www.vantage.sh"
+      },
+      "homepage": "https://www.vantage.sh"
+    },
+    {
+      "name": "vercel",
+      "description": "Build and deploy web apps and agents",
+      "source": "./plugins/vercel",
+      "version": "0.21.2",
+      "author": {
+        "name": "Vercel Labs",
+        "url": "https://github.com/vercel"
+      },
+      "keywords": [
+        "vercel",
+        "nextjs",
+        "ai-sdk",
+        "turborepo",
+        "turbopack",
+        "workflow",
+        "deployment",
+        "edge-functions",
+        "serverless",
+        "ai-gateway",
+        "chat-sdk",
+        "chat-bot",
+        "slack-bot",
+        "discord-bot"
+      ],
+      "homepage": "https://vercel.com/"
+    },
+    {
+      "name": "waldo",
+      "description": "Waldo is an AI-powered strategy platform for agencies and brands.",
+      "source": "./plugins/waldo",
+      "version": "1.0.2",
+      "author": {
+        "name": "Curiosities, Inc.",
+        "url": "https://www.waldo.fyi"
+      },
+      "homepage": "https://www.waldo.fyi"
+    },
+    {
+      "name": "weatherpromise",
+      "description": "Protect your trip with WeatherPromise and get back the full cost if it rains more than promised during your...",
+      "source": "./plugins/weatherpromise",
+      "version": "1.0.2",
+      "author": {
+        "name": "WeatherPromise, Inc.",
+        "url": "https://www.weatherpromise.com/"
+      },
+      "homepage": "https://www.weatherpromise.com/"
+    },
+    {
+      "name": "windsor-ai",
+      "description": "Windsor.ai connects your marketing and business data sources to Codex so you can ask questions in natural...",
+      "source": "./plugins/windsor-ai",
+      "version": "1.0.2",
+      "author": {
+        "name": "Windsor.ai",
+        "url": "https://windsor.ai"
+      },
+      "homepage": "https://windsor.ai"
+    },
+    {
+      "name": "wix",
+      "description": "Build and deploy Wix apps and headless websites, and manage your Wix business. Includes CLI development skills, Wix Headless for any frontend framework, and Wix MCP server for eCommerce, CMS, dashboard extensions, and more.",
+      "source": "./plugins/wix",
+      "version": "1.1.2",
+      "author": {
+        "name": "Wix",
+        "url": "https://dev.wix.com"
+      },
+      "keywords": [
+        "wix",
+        "wix-cli",
+        "wix-mcp",
+        "ecommerce",
+        "cms",
+        "wix-apps",
+        "wix-headless",
+        "headless"
+      ],
+      "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills"
+    },
+    {
+      "name": "yepcode",
+      "description": "YepCode lets you build custom AI tools using your own code with JSON Schema-defined inputs, executed in an...",
+      "source": "./plugins/yepcode",
+      "version": "1.0.2",
+      "author": {
+        "name": "YepCode S.L.",
+        "url": "https://yepcode.io/"
+      },
+      "homepage": "https://yepcode.io/"
+    },
+    {
+      "name": "zoho",
+      "description": "CRM records, deals, contacts, and account context from Zoho",
+      "source": "./plugins/zoho",
+      "version": "1.0.2",
+      "author": {
+        "name": "Zoho",
+        "url": "https://www.zoho.com"
+      },
+      "homepage": "https://www.zoho.com"
+    },
+    {
+      "name": "zoom",
+      "description": "Connect Codex to Zoom meeting context and build Zoom apps, bots, API integrations, SDK workflows, webhooks, and automations.",
+      "source": "./plugins/zoom",
+      "version": "1.0.2",
+      "author": {
+        "name": "Zoom",
+        "url": "https://github.com/zoom"
+      },
+      "keywords": [
+        "zoom",
+        "codex-plugin",
+        "connector",
+        "meetings",
+        "transcripts",
+        "recordings",
+        "docs",
+        "developers",
+        "rest-api",
+        "meeting-sdk",
+        "video-sdk",
+        "webhooks",
+        "oauth"
+      ],
+      "homepage": "https://developers.zoom.us/"
+    },
+    {
+      "name": "zoominfo",
+      "description": "B2B company intelligence, contacts, and go-to-market signals",
+      "source": "./plugins/zoominfo",
+      "version": "1.0.2",
+      "author": {
+        "name": "ZoomInfo",
+        "url": "https://www.zoominfo.com"
+      },
+      "homepage": "https://www.zoominfo.com"
+    },
+    {
+      "name": "zotero",
+      "description": "Work with Zotero from Codex: search your library, export BibTeX, insert citations, and import references through the Zotero desktop app.",
+      "source": "./plugins/zotero",
+      "version": "0.1.2",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "zotero",
+        "citations",
+        "bibliography",
+        "bibtex",
+        "references",
+        "research",
+        "papers",
+        "latex"
+      ],
+      "homepage": "https://openai.com/"
+    }
+  ]
+}

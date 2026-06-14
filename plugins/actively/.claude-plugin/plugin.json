@@ -1,0 +1,13 @@
+{
+  "name": "actively",
+  "version": "1.0.2",
+  "description": "Account intelligence and prospecting signals from Actively",
+  "author": {
+    "name": "Actively",
+    "url": "https://www.actively.ai"
+  },
+  "homepage": "https://www.actively.ai",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": []
+}

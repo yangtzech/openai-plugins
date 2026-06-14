@@ -1,0 +1,13 @@
+{
+  "name": "zoho",
+  "version": "1.0.2",
+  "description": "CRM records, deals, contacts, and account context from Zoho",
+  "author": {
+    "name": "Zoho",
+    "url": "https://www.zoho.com"
+  },
+  "homepage": "https://www.zoho.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": []
+}

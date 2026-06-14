@@ -1,0 +1,13 @@
+{
+  "name": "waldo",
+  "version": "1.0.2",
+  "description": "Waldo is an AI-powered strategy platform for agencies and brands.",
+  "author": {
+    "name": "Curiosities, Inc.",
+    "url": "https://www.waldo.fyi"
+  },
+  "homepage": "https://www.waldo.fyi",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": []
+}

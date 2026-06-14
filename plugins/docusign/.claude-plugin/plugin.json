@@ -1,0 +1,13 @@
+{
+  "name": "docusign",
+  "version": "1.0.2",
+  "description": "Agreement envelopes, signing status, recipients, and contract dates",
+  "author": {
+    "name": "Docusign",
+    "url": "https://www.docusign.com"
+  },
+  "homepage": "https://www.docusign.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": []
+}

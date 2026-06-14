@@ -1,0 +1,13 @@
+{
+  "name": "replit",
+  "version": "1.0.2",
+  "description": "Work with Replit projects, apps, deployments, and workspace context",
+  "author": {
+    "name": "Replit",
+    "url": "https://replit.com"
+  },
+  "homepage": "https://replit.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": []
+}

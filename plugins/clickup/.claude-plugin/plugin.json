@@ -1,0 +1,11 @@
+{
+  "name": "clickup",
+  "version": "1.0.2",
+  "description": "Turn Codex into your ClickUp command center.",
+  "author": {
+    "name": "ClickUp"
+  },
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": []
+}

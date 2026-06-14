@@ -1,0 +1,13 @@
+{
+  "name": "thoughtspot",
+  "version": "1.0.2",
+  "description": "Business intelligence answers, dashboards, metrics, and revenue analysis",
+  "author": {
+    "name": "ThoughtSpot",
+    "url": "https://www.thoughtspot.com"
+  },
+  "homepage": "https://www.thoughtspot.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": []
+}

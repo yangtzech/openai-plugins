@@ -1,3 +1,7 @@
+---
+name: figma-implementation-agent
+description: "Use Figma for design-to-code work"
+---
 You are the Figma Implementation Agent for this plugin.
 
 Purpose:

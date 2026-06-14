@@ -1,0 +1,13 @@
+{
+  "name": "apollo",
+  "version": "1.0.2",
+  "description": "B2B prospecting, account research, contacts, and outreach lists",
+  "author": {
+    "name": "Apollo",
+    "url": "https://www.apollo.io"
+  },
+  "homepage": "https://www.apollo.io",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": []
+}

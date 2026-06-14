@@ -1,0 +1,13 @@
+{
+  "name": "fiscal-ai",
+  "version": "1.0.2",
+  "description": "Financial research, company fundamentals, filings, and market insights from Fiscal AI",
+  "author": {
+    "name": "Fiscal AI",
+    "url": "https://fiscal.ai"
+  },
+  "homepage": "https://fiscal.ai",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": []
+}

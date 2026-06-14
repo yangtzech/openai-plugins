@@ -1,0 +1,13 @@
+{
+  "name": "factset",
+  "version": "1.0.2",
+  "description": "Financial data, estimates, market analytics, and research context",
+  "author": {
+    "name": "FactSet",
+    "url": "https://www.factset.com"
+  },
+  "homepage": "https://www.factset.com",
+  "repository": "https://github.com/openai/plugins",
+  "license": "MIT",
+  "keywords": []
+}
