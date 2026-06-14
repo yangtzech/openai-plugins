@@ -1,3 +1,5 @@
+English | [中文](README.zh-CN.md)
+
 # Plugins
 
 This repository contains a curated collection of Codex plugin examples.

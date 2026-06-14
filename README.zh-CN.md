@@ -1,3 +1,5 @@
+[English](README.md) | 中文
+
 # 插件
 
 本仓库包含一系列 Codex 插件示例。
