@@ -3,6 +3,8 @@ name: Sync upstream plugins
 on:
   schedule:
     - cron: "0 2 * * *"  # 每天 UTC 02:00（北京时间 10:00）
+  push:
+    branches: [main]
   workflow_dispatch:       # 支持手动触发
 
 permissions:
@@ -95,7 +97,7 @@ jobs:
             DELETED="${{ steps.deleted.outputs.deleted || '0' }}"
 
             {
-              echo "sync: upstream openai/plugins update"
+              echo "sync: upstream openai/plugins update [skip ci]"
               if [ "$DELETED" != "0" ]; then
                 echo ""
                 echo "Removed $DELETED orphaned plugin(s)."
