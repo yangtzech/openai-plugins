@@ -6,7 +6,6 @@
     "name": "OpenAI",
     "url": "https://openai.com"
   },
-  "homepage": "https://github.com/yangtzech/openai-plugins",
   "plugins": [
     {
       "name": "actively",

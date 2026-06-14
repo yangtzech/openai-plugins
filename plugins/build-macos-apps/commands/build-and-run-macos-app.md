@@ -1,3 +1,7 @@
+---
+name: build-and-run-macos-app
+description: "Create or update the project-local macOS `build_and_run.sh` script, wire the"
+---
 # /build-and-run-macos-app
 
 Create or update the project-local macOS `build_and_run.sh` script, wire the

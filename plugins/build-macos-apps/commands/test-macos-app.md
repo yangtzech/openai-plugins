@@ -1,3 +1,7 @@
+---
+name: test-macos-app
+description: "Run the smallest meaningful macOS test scope first and explain failures by category"
+---
 # /test-macos-app
 
 Run the smallest meaningful macOS test scope first and explain failures by category.

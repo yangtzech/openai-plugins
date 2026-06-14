@@ -1,3 +1,7 @@
+---
+name: review-design-parity
+description: "Review implemented UI against a Figma design and call out visual/behavioral mismatches"
+---
 # /review-design-parity
 
 Review implemented UI against a Figma design and call out visual/behavioral mismatches.

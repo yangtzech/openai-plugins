@@ -1,3 +1,7 @@
+---
+name: implement-from-figma
+description: "Implement a Figma frame or component into project code"
+---
 # /implement-from-figma
 
 Implement a Figma frame or component into project code.

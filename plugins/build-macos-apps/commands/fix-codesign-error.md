@@ -1,3 +1,7 @@
+---
+name: fix-codesign-error
+description: "Inspect a macOS signing or entitlement failure and explain the minimum fix path"
+---
 # /fix-codesign-error
 
 Inspect a macOS signing or entitlement failure and explain the minimum fix path.

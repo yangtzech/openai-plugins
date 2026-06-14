@@ -1,3 +1,7 @@
+---
+name: create-design-system-rules
+description: "Generate project-specific Figma-to-code rules and prepare them for `AGENTS.md`"
+---
 # /create-design-system-rules
 
 Generate project-specific Figma-to-code rules and prepare them for `AGENTS.md`.

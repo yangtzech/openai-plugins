@@ -1,3 +1,7 @@
+---
+name: _conventions
+description: "Command"
+---
 # Command Conventions
 
 Every slash command in this plugin follows a consistent structure so Codex produces reliable, verifiable Zoom workflow results. Every non-underscore file in `commands/` must include all required sections below.

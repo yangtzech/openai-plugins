@@ -1,3 +1,7 @@
+---
+name: connect-figma-components
+description: "Create or update parserless Figma Code Connect template files for components"
+---
 # /connect-figma-components
 
 Create or update parserless Figma Code Connect template files for components.

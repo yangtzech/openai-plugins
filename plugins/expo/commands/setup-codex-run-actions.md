@@ -1,3 +1,7 @@
+---
+name: setup-codex-run-actions
+description: "Wire the current Expo project into the Codex app action bar"
+---
 # /setup-codex-run-actions
 
 Wire the current Expo project into the Codex app action bar.
