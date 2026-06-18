@@ -11,7 +11,7 @@
       "name": "actively",
       "description": "Account intelligence and prospecting signals from Actively",
       "source": "./plugins/actively",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Actively",
         "url": "https://www.actively.ai"
@@ -33,7 +33,7 @@
       "name": "airtable",
       "description": "Airtable is the database and operations layer for your agents — whether running product, marketing, sales, ops, HR, or a custom business app. It combines structured data with multiplayer visual surfaces (grid, kanban, calendar, gallery, timeline) humans and agents share — plus sync integrations to Jira, Salesforce, Zendesk, Google Drive, Databricks, and the rest of your stack, all backed by enterprise governance. This plugin makes Codex fluent in Airtable: creating bases and schema, working with records, and sharing UI for collaboration. Uses the Airtable app connector.",
       "source": "./plugins/airtable",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "Airtable",
         "url": "https://www.airtable.com"
@@ -75,7 +75,7 @@
       "name": "alation",
       "description": "Data catalog search, lineage, governance, and documentation from Alation",
       "source": "./plugins/alation",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Alation",
         "url": "https://www.alation.com"
@@ -117,7 +117,7 @@
       "name": "asana",
       "description": "Work with your Asana tasks, subtasks, comments, due dates, and project details to create summaries, understand priorities, and prepare clear status updates.",
       "source": "./plugins/asana",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "Asana, Inc.",
         "url": "https://asana.com"
@@ -150,7 +150,7 @@
       "name": "attio",
       "description": "Attio connects Codex directly to your CRM workspace, letting you manage customer relationships through na...",
       "source": "./plugins/attio",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Attio Ltd",
         "url": "https://attio.com"
@@ -216,7 +216,7 @@
       "name": "brand24",
       "description": "The Brand24 app in Codex lets marketing and PR teams instantly explore brand mentions, sentiment, and med...",
       "source": "./plugins/brand24",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Brand24 Global Inc.",
         "url": "https://brand24.com"
@@ -227,7 +227,7 @@
       "name": "brex",
       "description": "Connect Brex to Codex and review your company finances through natural conversation — at Codex speed.",
       "source": "./plugins/brex",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Brex Inc.",
         "url": "https://brex.com"
@@ -238,7 +238,7 @@
       "name": "brighthire",
       "description": "Connect Codex to BrightHire interview intelligence data through the BrightHire app connector.",
       "source": "./plugins/brighthire",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "BrightHire",
         "email": "support@brighthire.com",
@@ -417,7 +417,7 @@
       "name": "carta-crm",
       "description": "Carta CRM helps investment teams stay on top of deal flow by keeping deals, companies, and relationships in...",
       "source": "./plugins/carta-crm",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Carta Inc.",
         "url": "https://carta.com"
@@ -447,7 +447,7 @@
       "name": "cb-insights",
       "description": "Unleash Codex as your private markets research agent.",
       "source": "./plugins/cb-insights",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "CB Insights",
         "url": "https://cbinsights.com"
@@ -458,7 +458,7 @@
       "name": "channel99",
       "description": "Channel99 real time go to market intelligence connects Codex directly to Channel99’s performance marketin...",
       "source": "./plugins/channel99",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Channel99 Inc. ",
         "url": "https://www.channel99.com/"
@@ -466,15 +466,26 @@
       "homepage": "https://www.channel99.com/"
     },
     {
-      "name": "chronograph",
-      "description": "Private capital portfolio monitoring, fund metrics, and company updates",
-      "source": "./plugins/chronograph",
-      "version": "1.0.2",
+      "name": "chronograph-gp",
+      "description": "Portfolio monitoring, valuations, and analytics for private capital GP teams",
+      "source": "./plugins/chronograph-gp",
+      "version": "1.0.0",
       "author": {
         "name": "Chronograph",
-        "url": "https://www.chronograph.pe"
+        "url": "https://www.chronograph.pe/"
       },
-      "homepage": "https://www.chronograph.pe"
+      "homepage": "https://www.chronograph.pe/"
+    },
+    {
+      "name": "chronograph-lp",
+      "description": "Portfolio monitoring and analytics for private capital LP teams",
+      "source": "./plugins/chronograph-lp",
+      "version": "1.0.3",
+      "author": {
+        "name": "Chronograph",
+        "url": "https://www.chronograph.pe/"
+      },
+      "homepage": "https://www.chronograph.pe/"
     },
     {
       "name": "circleback",
@@ -491,7 +502,7 @@
       "name": "circleci",
       "description": "Build, test, and deploy any application",
       "source": "./plugins/circleci",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "CircleCI",
         "url": "https://circleci.com"
@@ -542,7 +553,7 @@
       "name": "clickup",
       "description": "Turn Codex into your ClickUp command center.",
       "source": "./plugins/clickup",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "ClickUp"
       }
@@ -551,7 +562,7 @@
       "name": "close",
       "description": "CRM leads, opportunities, activities, and sales pipeline context",
       "source": "./plugins/close",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Close",
         "url": "https://www.close.com"
@@ -596,7 +607,7 @@
       "name": "coderabbit",
       "description": "AI-powered code review in Codex, powered by CodeRabbit.",
       "source": "./plugins/coderabbit",
-      "version": "1.1.3",
+      "version": "1.1.4",
       "author": {
         "name": "CodeRabbit AI",
         "email": "support@coderabbit.ai",
@@ -631,7 +642,7 @@
       "name": "cogedim",
       "description": "Cogedim is one of France's leading real estate developers.",
       "source": "./plugins/cogedim",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "ALTAREA PROMOTION MANAGEMENT",
         "url": "https://www.cogedim.com"
@@ -653,7 +664,7 @@
       "name": "conductor",
       "description": "The Conductor MCP server retrieves proprietary performance metrics regarding a brand's visibility, sentimen...",
       "source": "./plugins/conductor",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "url": "https://www.conductor.com/",
         "name": "Conductor Inc."
@@ -720,7 +731,7 @@
       "name": "cube",
       "description": "With the Cube MCP Server, you can: - Query live Cube data from actuals, budgets, forecasts, variances, and...",
       "source": "./plugins/cube",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Cube",
         "url": "https://www.cubesoftware.com/"
@@ -771,7 +782,7 @@
       "name": "deepnote",
       "description": "Use Deepnote's collaborative data workspace to explore data, automate notebooks and SQL workflows, and turn analysis into shareable results.",
       "source": "./plugins/deepnote",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "author": {
         "name": "Deepnote",
         "url": "https://deepnote.com"
@@ -790,7 +801,7 @@
       "name": "demandbase",
       "description": "Demandbase integration with Codex gives sales, marketing, and GTM teams seamless access to rich B2B data...",
       "source": "./plugins/demandbase",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Demandbase Inc",
         "url": "https://www.demandbase.com"
@@ -824,7 +835,7 @@
       "name": "docket",
       "description": "Docket AI makes your sales knowledge your instant superpower.",
       "source": "./plugins/docket",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Docket AI",
         "url": "https://www.docket.io/"
@@ -835,7 +846,7 @@
       "name": "docusign",
       "description": "Agreement envelopes, signing status, recipients, and contract dates",
       "source": "./plugins/docusign",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Docusign",
         "url": "https://www.docusign.com"
@@ -846,7 +857,7 @@
       "name": "domotz-preview",
       "description": "Monitor and manage your network infrastructure through natural language.",
       "source": "./plugins/domotz-preview",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Domotz",
         "url": "https://www.domotz.com"
@@ -857,7 +868,7 @@
       "name": "dovetail",
       "description": "Connect Dovetail inside Codex to turn customer feedback into decisions without leaving your conversation.",
       "source": "./plugins/dovetail",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Dovetail",
         "url": "https://dovetail.com"
@@ -868,7 +879,7 @@
       "name": "dow-jones-factiva",
       "description": "The Factiva Connector, enables authorized users to search Factiva’s global news archive, including premium...",
       "source": "./plugins/dow-jones-factiva",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Factiva, Inc.",
         "url": "https://www.dowjones.com/business-intelligence/factiva/"
@@ -879,7 +890,7 @@
       "name": "egnyte",
       "description": "Work with documents and files stored in Egnyte directly from Codex.",
       "source": "./plugins/egnyte",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "url": "https://www.egnyte.com",
         "name": "Egnyte Inc"
@@ -926,7 +937,7 @@
       "name": "fal",
       "description": "AI image and media generation workflows using Fal models",
       "source": "./plugins/fal",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Fal",
         "url": "https://fal.ai"
@@ -955,7 +966,7 @@
       "name": "finn",
       "description": "A FINN car subscription is a flexible way to stay mobile anytime - without long-term commitments like buyin...",
       "source": "./plugins/finn",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "FINN GmbH",
         "url": "https://www.finn.com/de-DE"
@@ -977,7 +988,7 @@
       "name": "fiscal-ai",
       "description": "Financial research, company fundamentals, filings, and market insights from Fiscal AI",
       "source": "./plugins/fiscal-ai",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Fiscal AI",
         "url": "https://fiscal.ai"
@@ -1022,7 +1033,7 @@
       "name": "github",
       "description": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
       "source": "./plugins/github",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -1042,7 +1053,7 @@
       "name": "gmail",
       "description": "Work with Gmail using the configured Gmail app connector.",
       "source": "./plugins/gmail",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -1059,7 +1070,7 @@
       "name": "google-calendar",
       "description": "Connect Google Calendar for scheduling, availability, daily briefs, and event management.",
       "source": "./plugins/google-calendar",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -1079,7 +1090,7 @@
       "name": "google-drive",
       "description": "Use Google Drive as the single entrypoint for Drive, Docs, Sheets, and Slides work.",
       "source": "./plugins/google-drive",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -1098,7 +1109,7 @@
       "name": "govtribe",
       "description": "Search government contracts, awards, and vendors directly from Codex.",
       "source": "./plugins/govtribe",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Government Executive Media Group LLC",
         "url": "https://govtribe.com/"
@@ -1109,7 +1120,7 @@
       "name": "granola",
       "description": "Granola MCP connects your meeting history to Codex so your assistant can pull real context from past conv...",
       "source": "./plugins/granola",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Granola",
         "url": "https://www.granola.ai"
@@ -1120,7 +1131,7 @@
       "name": "happenstance",
       "description": "Happenstance searches your professional network using natural language to find the right people.",
       "source": "./plugins/happenstance",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Happenstance, Inc.",
         "url": "https://happenstance.ai"
@@ -1131,7 +1142,7 @@
       "name": "hebbia",
       "description": "Document research, evidence-backed answers, and project analysis from Hebbia",
       "source": "./plugins/hebbia",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Hebbia",
         "url": "https://www.hebbia.ai"
@@ -1142,7 +1153,7 @@
       "name": "help-scout",
       "description": "Connect to sync Help Scout mailboxes and conversations for use in Codex.",
       "source": "./plugins/help-scout",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "OpenAI",
         "url": "https://www.helpscout.com/"
@@ -1150,10 +1161,28 @@
       "homepage": "https://www.helpscout.com/"
     },
     {
+      "name": "hex",
+      "description": "Hex workflows for searching projects and asking Hex Threads questions about workspace data.",
+      "source": "./plugins/hex",
+      "version": "0.1.0",
+      "author": {
+        "name": "OpenAI"
+      },
+      "keywords": [
+        "hex",
+        "data-analysis",
+        "analytics",
+        "threads",
+        "dashboards",
+        "notebooks"
+      ],
+      "homepage": "https://hex.tech/"
+    },
+    {
       "name": "heygen",
       "description": "Create HeyGen avatar videos and personalized video messages. Build a persistent digital identity from a description or hosted photo URL, then generate presenter-led videos with your digital twin.",
       "source": "./plugins/heygen",
-      "version": "2.2.3",
+      "version": "2.2.4",
       "author": {
         "name": "HeyGen",
         "email": "developers@heygen.com",
@@ -1177,7 +1206,7 @@
       "name": "hg-insights",
       "description": "Access HG Insights revenue growth intelligence, account data, buyer intent, technographics, and GTM signals from Codex.",
       "source": "./plugins/hg-insights",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "HG Insights",
         "url": "https://hginsights.com"
@@ -1207,7 +1236,7 @@
       "name": "hostinger",
       "description": "Hostinger Horizons lets you build real websites and apps just by describing what you want.",
       "source": "./plugins/hostinger",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Hostinger",
         "url": "https://hostinger.com"
@@ -1218,7 +1247,7 @@
       "name": "hubspot",
       "description": "Work with your HubSpot data to analyze patterns, create and update records, and manage your CRM operations.",
       "source": "./plugins/hubspot",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "author": {
         "name": "HubSpot",
         "url": "https://www.hubspot.com/"
@@ -1236,7 +1265,7 @@
       "name": "hugging-face",
       "description": "Inspect models, datasets, Spaces, and research",
       "source": "./plugins/hugging-face",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Hugging Face",
         "url": "https://huggingface.co"
@@ -1278,7 +1307,7 @@
       "name": "intercom",
       "description": "Customer conversations, contacts, tickets, and support workflows from Intercom",
       "source": "./plugins/intercom",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Intercom",
         "url": "https://www.intercom.com"
@@ -1300,7 +1329,7 @@
       "name": "keybid-puls",
       "description": "Unlock the profitability of short-term rental investments with our ROI Calculator app, tailored for platfor...",
       "source": "./plugins/keybid-puls",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "KeyBid",
         "url": "https://keybid.eu"
@@ -1434,7 +1463,7 @@
       "name": "mixpanel",
       "description": "Query and analyze Mixpanel",
       "source": "./plugins/mixpanel",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "author": {
         "name": "Mixpanel",
         "url": "https://mixpanel.com/home"
@@ -1548,7 +1577,7 @@
       "name": "mt-newswires",
       "description": "MT Newswires brings real-time global financial news directly into Codex — providing original, unbiased an...",
       "source": "./plugins/mt-newswires",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "MT Newswires",
         "url": "https://www.mtnewswires.com"
@@ -1559,7 +1588,7 @@
       "name": "myregistry-com",
       "description": "MyRegistry.com helps make gift-giving easy for friends & family to get you the gifts you really want!",
       "source": "./plugins/myregistry-com",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "MyRegistry.com",
         "url": "https://www.myregistry.com/"
@@ -1570,7 +1599,7 @@
       "name": "neon-postgres",
       "description": "Manage Neon Serverless Postgres projects and databases with the neon-postgres agent skill and the Neon MCP Server",
       "source": "./plugins/neon-postgres",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Neon",
         "email": "andre@neon.tech",
@@ -1694,7 +1723,7 @@
       "name": "omni-analytics",
       "description": "Query Omni using the same semantic model, permissions, and logic defined by your data team directly from Codex.",
       "source": "./plugins/omni-analytics",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "Omni Analytics",
         "url": "https://www.omni.co"
@@ -1705,7 +1734,7 @@
       "name": "openai-developers",
       "description": "Build with OpenAI APIs, Agents SDK, and ChatGPT Apps, and create and save OpenAI API keys from Codex.",
       "source": "./plugins/openai-developers",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -1728,7 +1757,7 @@
       "name": "otter-ai",
       "description": "The Otter.ai MCP server connects Codex to your meeting intelligence, enabling search and retrieval of transcripts, summaries, action items, and meeting metadata directly within your workflow.",
       "source": "./plugins/otter-ai",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Otter.ai",
         "url": "https://otter.ai"
@@ -1747,7 +1776,7 @@
       "name": "outlook-calendar",
       "description": "Connect Outlook Calendar for scheduling, daily briefs, event prep, and safe meeting changes.",
       "source": "./plugins/outlook-calendar",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -1768,7 +1797,7 @@
       "name": "outlook-email",
       "description": "Work with Outlook Email using the configured Microsoft Outlook app connector.",
       "source": "./plugins/outlook-email",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -1796,7 +1825,7 @@
       "name": "particl-market-research",
       "description": "Particl Market Research helps teams answer ecommerce research questions directly in Codex.",
       "source": "./plugins/particl-market-research",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Particl",
         "url": "https://www.particl.com"
@@ -1807,7 +1836,7 @@
       "name": "picsart",
       "description": "Image editing, creative assets, and design workflows from Picsart",
       "source": "./plugins/picsart",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Picsart",
         "url": "https://picsart.com"
@@ -1818,7 +1847,7 @@
       "name": "pipedrive",
       "description": "Connect to sync Pipedrive deals and contacts for use in Codex.",
       "source": "./plugins/pipedrive",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "OpenAI",
         "url": "https://www.pipedrive.com/"
@@ -1829,7 +1858,7 @@
       "name": "pitchbook",
       "description": "PitchBook provides structured access to private capital market data across  companies, investors, funds, de...",
       "source": "./plugins/pitchbook",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "url": "https://www.pitchbook.com",
         "name": "PitchBook"
@@ -1860,7 +1889,7 @@
       "name": "policynote",
       "description": "Use the PolicyNote app to access structured policy and regulatory intelligence from around the world.",
       "source": "./plugins/policynote",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "FiscalNote",
         "url": "https://fiscalnote.com/products/policynote-api"
@@ -1895,7 +1924,7 @@
       "name": "pylon",
       "description": "Access Pylon's customer support platform directly from Codex to search, manage, and resolve customer issues.",
       "source": "./plugins/pylon",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Pylon Labs Inc.",
         "url": "https://www.usepylon.com/"
@@ -1906,7 +1935,7 @@
       "name": "quartr",
       "description": "Access structured first-party IR data from over 14,500+ public companies across 65 markets Quartr delivers...",
       "source": "./plugins/quartr",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Quartr",
         "url": "https://quartr.com"
@@ -1917,7 +1946,7 @@
       "name": "quickbooks",
       "description": "QuickBooks accounting, invoices, expenses, customers, and payment context",
       "source": "./plugins/quickbooks",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "QuickBooks",
         "url": "https://quickbooks.intuit.com"
@@ -1928,7 +1957,7 @@
       "name": "quicknode",
       "description": "Manage your Quicknode infrastructure directly in OpenAI.",
       "source": "./plugins/quicknode",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Quicknode",
         "url": "https://www.quicknode.com/"
@@ -1939,7 +1968,7 @@
       "name": "ranked-ai",
       "description": "Ranked AI provides industry leading AI SEO & PPC software, with a fully managed service integrated into it.",
       "source": "./plugins/ranked-ai",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Ranked AI, LLC",
         "url": "https://www.ranked.ai"
@@ -1950,7 +1979,7 @@
       "name": "razorpay",
       "description": "Connect your Razorpay account to access your payment data through conversation.",
       "source": "./plugins/razorpay",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Razorpay Software Private Limited",
         "url": "https://razorpay.com/"
@@ -1961,7 +1990,7 @@
       "name": "read-ai",
       "description": "Read AI brings your meeting intelligence directly into your AI workflows.",
       "source": "./plugins/read-ai",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Read AI, Inc",
         "url": "https://read.ai"
@@ -1972,7 +2001,7 @@
       "name": "readwise",
       "description": "The official app for Readwise and Reader.",
       "source": "./plugins/readwise",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Readwise Inc.",
         "url": "https://readwise.io"
@@ -1983,7 +2012,7 @@
       "name": "remotion",
       "description": "Remotion video creation skills — best practices, animations, audio, captions, 3D, and more for building programmatic videos with React.",
       "source": "./plugins/remotion",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Remotion",
         "email": "hi@remotion.dev",
@@ -2037,7 +2066,7 @@
       "name": "responsive",
       "description": "The Responsive App makes it easy to work with your organization’s data inside Codex.",
       "source": "./plugins/responsive",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "RFPIO Inc. (d/b/a Responsive)",
         "url": "https://www.responsive.io"
@@ -2079,7 +2108,7 @@
       "name": "scite",
       "description": "Scite delivers answers grounded in peer-reviewed research you can verify.",
       "source": "./plugins/scite",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Scite",
         "url": "https://www.scite.ai"
@@ -2090,7 +2119,7 @@
       "name": "semrush",
       "description": "The Semrush MCP provides structured, quantitative SEO and traffic data for domains, keywords, backlinks, an...",
       "source": "./plugins/semrush",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Semrush Holdings, Inc.",
         "url": "https://www.semrush.com/"
@@ -2140,7 +2169,7 @@
       "name": "sharepoint",
       "description": "Work with SharePoint using the configured Microsoft SharePoint app connector.",
       "source": "./plugins/sharepoint",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -2176,7 +2205,7 @@
       "name": "shutterstock",
       "description": "Search licensed stock images, videos, music, and creative assets",
       "source": "./plugins/shutterstock",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Shutterstock",
         "url": "https://www.shutterstock.com"
@@ -2187,7 +2216,7 @@
       "name": "signnow",
       "description": "Get documents signed faster without switching between tools.",
       "source": "./plugins/signnow",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "airSlate Inc",
         "url": "https://www.signnow.com"
@@ -2209,7 +2238,7 @@
       "name": "skywatch",
       "description": "Search and explore satellite imagery from top providers including Vantor, Planet, Airbus, and more, all in...",
       "source": "./plugins/skywatch",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "SkyWatch Space Applications Inc.",
         "url": "https://skywatch.com"
@@ -2237,7 +2266,7 @@
       "name": "statsig",
       "description": "Bring your Statsig workspace into Codex.",
       "source": "./plugins/statsig",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "author": {
         "name": "Statsig, LLC",
         "url": "https://statsig.com"
@@ -2270,7 +2299,7 @@
       "name": "supabase",
       "description": "Access your Supabase projects and perform tasks like managing tables, fetching config, and querying data.",
       "source": "./plugins/supabase",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "author": {
         "name": "Supabase",
         "email": "support@supabase.io",
@@ -2329,7 +2358,7 @@
       "name": "taxdown",
       "description": "TaxDown te ayuda a resolver dudas fiscales en España, tanto para particulares como autónomos: deducciones,...",
       "source": "./plugins/taxdown",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "TAXDOWN S.L.",
         "url": "https://taxdown.es/"
@@ -2340,7 +2369,7 @@
       "name": "teams",
       "description": "Work with Teams using the configured Microsoft Teams app connector.",
       "source": "./plugins/teams",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -2357,7 +2386,7 @@
       "name": "teamwork-com",
       "description": "Connect to sync Teamwork projects and tasks for use in Codex.",
       "source": "./plugins/teamwork-com",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "OpenAI",
         "url": "https://www.teamwork.com/"
@@ -2416,7 +2445,7 @@
       "name": "third-bridge",
       "description": "Seamlessly incorporate critical context and trusted insights from industry experts as part of your financia...",
       "source": "./plugins/third-bridge",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Third Bridge Group",
         "url": "https://www.thirdbridge.com"
@@ -2427,7 +2456,7 @@
       "name": "thoughtspot",
       "description": "Business intelligence answers, dashboards, metrics, and revenue analysis",
       "source": "./plugins/thoughtspot",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "ThoughtSpot",
         "url": "https://www.thoughtspot.com"
@@ -2438,7 +2467,7 @@
       "name": "tinman-ai",
       "description": "Tinman AI helps loan officers and underwriters quickly underwrite home financing scenarios and answer compl...",
       "source": "./plugins/tinman-ai",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Better",
         "url": "https://better.com"
@@ -2480,7 +2509,7 @@
       "name": "united-rentals",
       "description": "Get the right equipment for the job without guesswork.",
       "source": "./plugins/united-rentals",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "United Rentals",
         "url": "https://www.unitedrentals.com"
@@ -2529,7 +2558,7 @@
       "name": "waldo",
       "description": "Waldo is an AI-powered strategy platform for agencies and brands.",
       "source": "./plugins/waldo",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Curiosities, Inc.",
         "url": "https://www.waldo.fyi"
@@ -2551,7 +2580,7 @@
       "name": "windsor-ai",
       "description": "Windsor.ai connects your marketing and business data sources to Codex so you can ask questions in natural...",
       "source": "./plugins/windsor-ai",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Windsor.ai",
         "url": "https://windsor.ai"
@@ -2583,7 +2612,7 @@
       "name": "yepcode",
       "description": "YepCode lets you build custom AI tools using your own code with JSON Schema-defined inputs, executed in an...",
       "source": "./plugins/yepcode",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "YepCode S.L.",
         "url": "https://yepcode.io/"
@@ -2594,7 +2623,7 @@
       "name": "zoho",
       "description": "CRM records, deals, contacts, and account context from Zoho",
       "source": "./plugins/zoho",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Zoho",
         "url": "https://www.zoho.com"
