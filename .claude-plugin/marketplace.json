@@ -161,7 +161,7 @@
       "name": "base44",
       "description": "Build and deploy Base44 full-stack apps with CLI project management and JavaScript/TypeScript SDK development skills",
       "source": "./plugins/base44",
-      "version": "1.0.2-beta.1",
+      "version": "1.0.3-beta.1",
       "author": {
         "name": "base44",
         "url": "https://base44.com"
@@ -625,7 +625,7 @@
       "name": "codex-security",
       "description": "Codex Security workflows for security scans, analysis, and investigation.",
       "source": "./plugins/codex-security",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "author": {
         "name": "OpenAI"
       },
@@ -771,7 +771,7 @@
       "name": "datasite",
       "description": "Deal room documents, diligence materials, and Q&A workflows",
       "source": "./plugins/datasite",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Datasite",
         "url": "https://www.datasite.com"
@@ -948,7 +948,7 @@
       "name": "figma",
       "description": "Figma workflows for design implementation, Code Connect templates, and design system rule generation.",
       "source": "./plugins/figma",
-      "version": "2.0.9",
+      "version": "2.0.10",
       "author": {
         "name": "Figma",
         "url": "https://www.figma.com"
@@ -1033,7 +1033,7 @@
       "name": "github",
       "description": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
       "source": "./plugins/github",
-      "version": "0.1.3",
+      "version": "0.1.5",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -1048,6 +1048,23 @@
         "actions"
       ],
       "homepage": "https://github.com/"
+    },
+    {
+      "name": "glean",
+      "description": "Access enterprise knowledge with Glean's remote MCP server.",
+      "source": "./plugins/glean",
+      "version": "1.0.0",
+      "author": {
+        "name": "Glean Technologies, Inc.",
+        "url": "https://glean.com"
+      },
+      "keywords": [
+        "glean",
+        "enterprise-search",
+        "knowledge-management",
+        "mcp"
+      ],
+      "homepage": "https://glean.com"
     },
     {
       "name": "gmail",
@@ -1452,7 +1469,7 @@
       "name": "midpage",
       "description": "Legal research, cases, statutes, regulations, and cited research memos",
       "source": "./plugins/midpage",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "Midpage",
         "url": "https://www.midpage.ai"
@@ -1729,6 +1746,25 @@
         "url": "https://www.omni.co"
       },
       "homepage": "https://www.omni.co"
+    },
+    {
+      "name": "openai-ads-conversions",
+      "description": "Set up OpenAI Ads Measurement Pixel and optional Conversions API instrumentation.",
+      "source": "./plugins/openai-ads-conversions",
+      "version": "0.1.0",
+      "author": {
+        "name": "OpenAI",
+        "email": "support@openai.com",
+        "url": "https://openai.com/"
+      },
+      "keywords": [
+        "openai-ads",
+        "ads",
+        "conversions",
+        "measurement-pixel",
+        "capi"
+      ],
+      "homepage": "https://developers.openai.com/ads/"
     },
     {
       "name": "openai-developers",
@@ -2035,7 +2071,7 @@
       "name": "render",
       "description": "Skills for deploying, debugging, monitoring, and migrating apps on Render.",
       "source": "./plugins/render",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "Render",
         "email": "support@render.com",
@@ -2186,7 +2222,7 @@
       "name": "shopify",
       "description": "Search Shopify docs, generate and validate GraphQL, Liquid, and UI extension code.",
       "source": "./plugins/shopify",
-      "version": "1.3.2",
+      "version": "1.3.3",
       "author": {
         "name": "Shopify",
         "url": "https://shopify.dev/"
@@ -2299,7 +2335,7 @@
       "name": "supabase",
       "description": "Access your Supabase projects and perform tasks like managing tables, fetching config, and querying data.",
       "source": "./plugins/supabase",
-      "version": "0.1.7",
+      "version": "0.1.10",
       "author": {
         "name": "Supabase",
         "email": "support@supabase.io",
@@ -2531,7 +2567,7 @@
       "name": "vercel",
       "description": "Build and deploy web apps and agents",
       "source": "./plugins/vercel",
-      "version": "0.21.2",
+      "version": "0.21.3",
       "author": {
         "name": "Vercel Labs",
         "url": "https://github.com/vercel"

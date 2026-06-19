@@ -1,6 +1,6 @@
 {
   "name": "midpage",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Legal research, cases, statutes, regulations, and cited research memos",
   "author": {
     "name": "Midpage",
@@ -9,5 +9,6 @@
   "homepage": "https://www.midpage.ai",
   "repository": "https://github.com/openai/plugins",
   "license": "MIT",
-  "keywords": []
+  "keywords": [],
+  "skills": "./skills/"
 }
