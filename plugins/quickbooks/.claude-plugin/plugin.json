@@ -1,7 +1,7 @@
 {
   "name": "quickbooks",
   "version": "1.0.3",
-  "description": "QuickBooks accounting, invoices, expenses, customers, and payment context",
+  "description": "Analyze finances and manage QuickBooks records",
   "author": {
     "name": "QuickBooks",
     "url": "https://quickbooks.intuit.com"

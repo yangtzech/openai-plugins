@@ -1,7 +1,7 @@
 {
   "name": "replit",
   "version": "1.0.2",
-  "description": "Work with Replit projects, apps, deployments, and workspace context",
+  "description": "Create and iterate Replit web apps",
   "author": {
     "name": "Replit",
     "url": "https://replit.com"

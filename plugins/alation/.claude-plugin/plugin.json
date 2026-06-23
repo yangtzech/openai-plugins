@@ -1,7 +1,7 @@
 {
   "name": "alation",
   "version": "1.0.3",
-  "description": "Data catalog search, lineage, governance, and documentation from Alation",
+  "description": "Trusted enterprise data context and governance",
   "author": {
     "name": "Alation",
     "url": "https://www.alation.com"

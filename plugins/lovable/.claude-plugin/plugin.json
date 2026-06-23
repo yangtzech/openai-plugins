@@ -1,7 +1,7 @@
 {
   "name": "lovable",
   "version": "1.0.2",
-  "description": "Build and inspect Lovable app projects from connected workspace context",
+  "description": "Create full-stack web apps from prompts",
   "author": {
     "name": "Lovable",
     "url": "https://lovable.dev"

@@ -1,7 +1,7 @@
 {
   "name": "s-p",
   "version": "1.0.3",
-  "description": "Company financials, ratings context, market research, and industry data",
+  "description": "Query S&P Global financial datasets",
   "author": {
     "name": "S&P Global",
     "url": "https://www.spglobal.com"

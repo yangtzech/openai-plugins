@@ -1,7 +1,7 @@
 {
   "name": "posthog",
   "version": "0.1.2",
-  "description": "Query product analytics and manage feature flags, experiments, and errors in PostHog.",
+  "description": "Analyze product data and manage experiments",
   "author": {
     "name": "PostHog",
     "url": "https://posthog.com"

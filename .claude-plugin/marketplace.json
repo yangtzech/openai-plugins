@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "actively",
-      "description": "Account intelligence and prospecting signals from Actively",
+      "description": "Account agents for GTM intelligence",
       "source": "./plugins/actively",
       "version": "1.0.3",
       "author": {
@@ -20,7 +20,7 @@
     },
     {
       "name": "aiera",
-      "description": "Earnings calls, transcripts, financial events, and market commentary",
+      "description": "Institutional financial data and events",
       "source": "./plugins/aiera",
       "version": "1.0.2",
       "author": {
@@ -73,7 +73,7 @@
     },
     {
       "name": "alation",
-      "description": "Data catalog search, lineage, governance, and documentation from Alation",
+      "description": "Trusted enterprise data context and governance",
       "source": "./plugins/alation",
       "version": "1.0.3",
       "author": {
@@ -104,7 +104,7 @@
     },
     {
       "name": "apollo",
-      "description": "B2B prospecting, account research, contacts, and outreach lists",
+      "description": "Prospecting and outbound execution in Apollo",
       "source": "./plugins/apollo",
       "version": "1.0.2",
       "author": {
@@ -200,6 +200,32 @@
         "name": "BioRender"
       },
       "homepage": "https://biorender.com/"
+    },
+    {
+      "name": "boltz-api-cli",
+      "description": "Predict structures, screen molecules and proteins, and design binders.",
+      "source": "./plugins/boltz-api-cli",
+      "version": "0.1.1",
+      "author": {
+        "name": "Boltz",
+        "email": "support@boltz.bio",
+        "url": "https://boltz.bio"
+      },
+      "keywords": [
+        "boltz",
+        "boltz-api",
+        "go-cli",
+        "computational-biology",
+        "protein-design",
+        "protein-screening",
+        "small-molecule-design",
+        "virtual-screening",
+        "structure-prediction",
+        "molecular-modeling",
+        "drug-discovery",
+        "biotech"
+      ],
+      "homepage": "https://boltz.bio"
     },
     {
       "name": "box",
@@ -385,7 +411,7 @@
     },
     {
       "name": "calendly",
-      "description": "Search Calendly events and availability so Codex can reason about meetings and scheduling.",
+      "description": "Scheduling links, availability, and bookings",
       "source": "./plugins/calendly",
       "version": "1.0.2",
       "author": {
@@ -531,7 +557,7 @@
     },
     {
       "name": "clay",
-      "description": "Find, enrich, and organize GTM accounts, contacts, and prospecting workflows from Clay.",
+      "description": "Find and engage prospects",
       "source": "./plugins/clay",
       "version": "1.0.2",
       "author": {
@@ -560,7 +586,7 @@
     },
     {
       "name": "close",
-      "description": "CRM leads, opportunities, activities, and sales pipeline context",
+      "description": "Reference and update Close CRM",
       "source": "./plugins/close",
       "version": "1.0.3",
       "author": {
@@ -769,7 +795,7 @@
     },
     {
       "name": "datasite",
-      "description": "Deal room documents, diligence materials, and Q&A workflows",
+      "description": "Manage secure M&A data rooms",
       "source": "./plugins/datasite",
       "version": "1.0.3",
       "author": {
@@ -810,7 +836,7 @@
     },
     {
       "name": "dnb-finance-analytics",
-      "description": "Credit origination, portfolio management, company reports, and workflow tools from D&B Finance Analytics.",
+      "description": "Commercial credit origination and risk workflows",
       "source": "./plugins/dnb-finance-analytics",
       "version": "1.0.2",
       "author": {
@@ -844,7 +870,7 @@
     },
     {
       "name": "docusign",
-      "description": "Agreement envelopes, signing status, recipients, and contract dates",
+      "description": "Automate contract creation and insights",
       "source": "./plugins/docusign",
       "version": "1.0.3",
       "author": {
@@ -924,7 +950,7 @@
     },
     {
       "name": "factset",
-      "description": "Financial data, estimates, market analytics, and research context",
+      "description": "Connect financial data, analytics, and workflows",
       "source": "./plugins/factset",
       "version": "1.0.2",
       "author": {
@@ -935,7 +961,7 @@
     },
     {
       "name": "fal",
-      "description": "AI image and media generation workflows using Fal models",
+      "description": "Generate and manage media with Fal models",
       "source": "./plugins/fal",
       "version": "1.0.3",
       "author": {
@@ -948,7 +974,7 @@
       "name": "figma",
       "description": "Figma workflows for design implementation, Code Connect templates, and design system rule generation.",
       "source": "./plugins/figma",
-      "version": "2.0.10",
+      "version": "2.0.11",
       "author": {
         "name": "Figma",
         "url": "https://www.figma.com"
@@ -986,7 +1012,7 @@
     },
     {
       "name": "fiscal-ai",
-      "description": "Financial research, company fundamentals, filings, and market insights from Fiscal AI",
+      "description": "Audit-ready financial data and equity research",
       "source": "./plugins/fiscal-ai",
       "version": "1.0.3",
       "author": {
@@ -1157,7 +1183,7 @@
     },
     {
       "name": "hebbia",
-      "description": "Document research, evidence-backed answers, and project analysis from Hebbia",
+      "description": "Institutional research and financial workflows",
       "source": "./plugins/hebbia",
       "version": "1.0.3",
       "author": {
@@ -1221,7 +1247,7 @@
     },
     {
       "name": "hg-insights",
-      "description": "Access HG Insights revenue growth intelligence, account data, buyer intent, technographics, and GTM signals from Codex.",
+      "description": "Prospect data and revenue intelligence",
       "source": "./plugins/hg-insights",
       "version": "1.0.3",
       "author": {
@@ -1386,7 +1412,7 @@
       "name": "linear",
       "description": "Find and reference issues and projects.",
       "source": "./plugins/linear",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "author": {
         "name": "OpenAI",
         "url": "https://linear.app/"
@@ -1395,7 +1421,7 @@
     },
     {
       "name": "lovable",
-      "description": "Build and inspect Lovable app projects from connected workspace context",
+      "description": "Create full-stack web apps from prompts",
       "source": "./plugins/lovable",
       "version": "1.0.2",
       "author": {
@@ -1406,7 +1432,7 @@
     },
     {
       "name": "lseg",
-      "description": "Financial market data, company intelligence, and news",
+      "description": "Financial market data and analytics",
       "source": "./plugins/lseg",
       "version": "1.0.2",
       "author": {
@@ -1458,7 +1484,7 @@
     },
     {
       "name": "meticulate",
-      "description": "Company matching, firmographic lookup, and go-to-market account intelligence",
+      "description": "Research companies and similar targets",
       "source": "./plugins/meticulate",
       "version": "1.0.2",
       "author": {
@@ -1467,7 +1493,7 @@
     },
     {
       "name": "midpage",
-      "description": "Legal research, cases, statutes, regulations, and cited research memos",
+      "description": "Legal research with cited case law",
       "source": "./plugins/midpage",
       "version": "1.0.3",
       "author": {
@@ -1694,7 +1720,7 @@
       "name": "notion",
       "description": "Notion workflows for implementation planning, research synthesis, meeting preparation, and knowledge capture.",
       "source": "./plugins/notion",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -1848,7 +1874,7 @@
     },
     {
       "name": "outreach",
-      "description": "Sales engagement, prospects, sequences, and deal activity context",
+      "description": "Revenue workflow automation with Outreach",
       "source": "./plugins/outreach",
       "version": "1.0.2",
       "author": {
@@ -1870,7 +1896,7 @@
     },
     {
       "name": "picsart",
-      "description": "Image editing, creative assets, and design workflows from Picsart",
+      "description": "Generate videos, images, and audio",
       "source": "./plugins/picsart",
       "version": "1.0.3",
       "author": {
@@ -1934,7 +1960,7 @@
     },
     {
       "name": "posthog",
-      "description": "Query product analytics and manage feature flags, experiments, and errors in PostHog.",
+      "description": "Analyze product data and manage experiments",
       "source": "./plugins/posthog",
       "version": "0.1.2",
       "author": {
@@ -1969,7 +1995,7 @@
     },
     {
       "name": "quartr",
-      "description": "Access structured first-party IR data from over 14,500+ public companies across 65 markets Quartr delivers...",
+      "description": "Public company IR data and earnings research",
       "source": "./plugins/quartr",
       "version": "1.0.3",
       "author": {
@@ -1980,7 +2006,7 @@
     },
     {
       "name": "quickbooks",
-      "description": "QuickBooks accounting, invoices, expenses, customers, and payment context",
+      "description": "Analyze finances and manage QuickBooks records",
       "source": "./plugins/quickbooks",
       "version": "1.0.3",
       "author": {
@@ -2089,7 +2115,7 @@
     },
     {
       "name": "replit",
-      "description": "Work with Replit projects, apps, deployments, and workspace context",
+      "description": "Create and iterate Replit web apps",
       "source": "./plugins/replit",
       "version": "1.0.2",
       "author": {
@@ -2111,7 +2137,7 @@
     },
     {
       "name": "rox",
-      "description": "Access Rox revenue agents, account intelligence, and sales workflow automation from Codex.",
+      "description": "Analyze sales data from Rox workspaces",
       "source": "./plugins/rox",
       "version": "1.0.3",
       "author": {
@@ -2131,7 +2157,7 @@
     },
     {
       "name": "s-p",
-      "description": "Company financials, ratings context, market research, and industry data",
+      "description": "Query S&P Global financial datasets",
       "source": "./plugins/s-p",
       "version": "1.0.3",
       "author": {
@@ -2239,7 +2265,7 @@
     },
     {
       "name": "shutterstock",
-      "description": "Search licensed stock images, videos, music, and creative assets",
+      "description": "Search stock media libraries",
       "source": "./plugins/shutterstock",
       "version": "1.0.3",
       "author": {
@@ -2261,7 +2287,7 @@
     },
     {
       "name": "similarweb",
-      "description": "Digital market intelligence and web traffic analytics",
+      "description": "Research web and app market intelligence",
       "source": "./plugins/similarweb",
       "version": "1.0.2",
       "author": {
@@ -2490,7 +2516,7 @@
     },
     {
       "name": "thoughtspot",
-      "description": "Business intelligence answers, dashboards, metrics, and revenue analysis",
+      "description": "Trusted business data answers",
       "source": "./plugins/thoughtspot",
       "version": "1.0.3",
       "author": {
@@ -2657,7 +2683,7 @@
     },
     {
       "name": "zoho",
-      "description": "CRM records, deals, contacts, and account context from Zoho",
+      "description": "Manage Zoho CRM sales workflows",
       "source": "./plugins/zoho",
       "version": "1.0.3",
       "author": {
@@ -2694,7 +2720,7 @@
     },
     {
       "name": "zoominfo",
-      "description": "B2B company intelligence, contacts, and go-to-market signals",
+      "description": "Prospecting and account research with ZoomInfo",
       "source": "./plugins/zoominfo",
       "version": "1.0.2",
       "author": {

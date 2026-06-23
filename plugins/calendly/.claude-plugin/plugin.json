@@ -1,7 +1,7 @@
 {
   "name": "calendly",
   "version": "1.0.2",
-  "description": "Search Calendly events and availability so Codex can reason about meetings and scheduling.",
+  "description": "Scheduling links, availability, and bookings",
   "author": {
     "name": "Calendly",
     "url": "https://calendly.com"

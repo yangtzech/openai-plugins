@@ -1,7 +1,7 @@
 {
   "name": "zoho",
   "version": "1.0.3",
-  "description": "CRM records, deals, contacts, and account context from Zoho",
+  "description": "Manage Zoho CRM sales workflows",
   "author": {
     "name": "Zoho",
     "url": "https://www.zoho.com"

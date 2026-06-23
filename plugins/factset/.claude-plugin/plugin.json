@@ -1,7 +1,7 @@
 {
   "name": "factset",
   "version": "1.0.2",
-  "description": "Financial data, estimates, market analytics, and research context",
+  "description": "Connect financial data, analytics, and workflows",
   "author": {
     "name": "FactSet",
     "url": "https://www.factset.com"
