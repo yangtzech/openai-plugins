@@ -1,6 +1,6 @@
 {
   "name": "github",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
   "author": {
     "name": "OpenAI",
@@ -18,5 +18,6 @@
     "ci",
     "actions"
   ],
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
 }
