@@ -974,7 +974,7 @@
       "name": "figma",
       "description": "Figma workflows for design implementation, Code Connect templates, and design system rule generation.",
       "source": "./plugins/figma",
-      "version": "2.0.11",
+      "version": "2.0.12",
       "author": {
         "name": "Figma",
         "url": "https://www.figma.com"
