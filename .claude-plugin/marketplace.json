@@ -835,6 +835,23 @@
       "homepage": "https://www.demandbase.com"
     },
     {
+      "name": "digitalocean",
+      "description": "Provision a DigitalOcean droplet as a remote Codex workspace.",
+      "source": "./plugins/digitalocean",
+      "version": "0.2.2",
+      "author": {
+        "name": "DigitalOcean",
+        "url": "https://github.com/digitalocean"
+      },
+      "keywords": [
+        "digitalocean",
+        "droplet",
+        "virtual-machine",
+        "remote-session"
+      ],
+      "homepage": "https://www.digitalocean.com/"
+    },
+    {
       "name": "dnb-finance-analytics",
       "description": "Commercial credit origination and risk workflows",
       "source": "./plugins/dnb-finance-analytics",
