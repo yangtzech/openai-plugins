@@ -651,7 +651,7 @@
       "name": "codex-security",
       "description": "Codex Security workflows for security scans, analysis, and investigation.",
       "source": "./plugins/codex-security",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "author": {
         "name": "OpenAI"
       },
@@ -991,7 +991,7 @@
       "name": "figma",
       "description": "Figma workflows for design implementation, Code Connect templates, and design system rule generation.",
       "source": "./plugins/figma",
-      "version": "2.0.12",
+      "version": "2.0.13",
       "author": {
         "name": "Figma",
         "url": "https://www.figma.com"
