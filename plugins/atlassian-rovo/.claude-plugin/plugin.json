@@ -1,6 +1,6 @@
 {
   "name": "atlassian-rovo",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "Manage Jira and Confluence fast",
   "author": {
     "name": "Atlassian",
@@ -10,7 +10,12 @@
   "repository": "https://github.com/openai/plugins",
   "license": "MIT",
   "keywords": [
-    "atlassian"
-  ],
-  "skills": "./skills/"
+    "atlassian",
+    "rovo",
+    "jira",
+    "confluence",
+    "issue tracking",
+    "project management",
+    "knowledge base"
+  ]
 }

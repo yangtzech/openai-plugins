@@ -1,15 +1,14 @@
 {
   "name": "linear",
-  "version": "0.0.3",
-  "description": "Find and reference issues and projects.",
+  "version": "5.0.1",
+  "description": "Search, create and update Linear issues, projects, and initiatives. Draft PRDs, write updates, analyze customer requests, and keep plans up to date — all from within ChatGPT",
   "author": {
-    "name": "OpenAI",
+    "name": "Linear Orbit, Inc",
     "url": "https://linear.app/"
   },
   "homepage": "https://linear.app/",
-  "repository": "https://github.com/openai/plugins",
+  "repository": "https://github.com/openai/openai/tree/master/chatgpt/oai-maintained-plugins/plugins/linear",
   "license": "MIT",
   "keywords": [],
-  "skills": "./skills/",
   "mcpServers": "./.mcp.json"
 }

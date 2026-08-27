@@ -1,6 +1,6 @@
 {
   "name": "google-calendar",
-  "version": "1.2.3",
+  "version": "1.2.6",
   "description": "Connect Google Calendar for scheduling, availability, daily briefs, and event management.",
   "author": {
     "name": "OpenAI",
@@ -12,11 +12,15 @@
   "license": "MIT",
   "keywords": [
     "google-calendar",
+    "google",
+    "google workspace",
     "calendar",
+    "events",
+    "meetings",
+    "availability",
     "agenda",
     "daily-brief",
     "scheduling",
     "productivity"
-  ],
-  "skills": "./skills/"
+  ]
 }

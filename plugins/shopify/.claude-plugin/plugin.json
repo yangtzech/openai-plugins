@@ -1,21 +1,9 @@
 {
   "name": "shopify",
-  "version": "1.3.3",
-  "description": "Search Shopify docs, generate and validate GraphQL, Liquid, and UI extension code.",
+  "version": "3.0.0",
+  "description": "Shopify for ChatGPT makes store building and management as easy as having a conversation. Effortlessly connect your existing store or create a new online store by describing your business. Simply chat to add products, adjust inventory across locations, create discount codes, browse recent orders, view customer details, or pull analytics on your store’s performance.",
   "author": {
-    "name": "Shopify",
-    "url": "https://shopify.dev/"
+    "name": "Shopify"
   },
-  "homepage": "https://github.com/Shopify/Shopify-AI-Toolkit",
-  "repository": "https://github.com/Shopify/Shopify-AI-Toolkit",
-  "license": "MIT",
-  "keywords": [
-    "shopify",
-    "mcp",
-    "graphql",
-    "liquid",
-    "storefront",
-    "admin-api"
-  ],
   "skills": "./skills/"
 }

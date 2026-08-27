@@ -1,6 +1,6 @@
 {
   "name": "github",
-  "version": "0.1.6",
+  "version": "0.1.11",
   "description": "Inspect repositories, triage pull requests and issues, debug CI, and publish changes through a hybrid GitHub connector and CLI workflow.",
   "author": {
     "name": "OpenAI",
@@ -12,12 +12,17 @@
   "license": "MIT",
   "keywords": [
     "github",
+    "microsoft",
+    "git",
+    "repositories",
+    "source control",
+    "pull requests",
+    "github actions",
+    "ci/cd",
     "pull-request",
     "code-review",
     "issues",
     "ci",
     "actions"
-  ],
-  "skills": "./skills/",
-  "mcpServers": "./.mcp.json"
+  ]
 }

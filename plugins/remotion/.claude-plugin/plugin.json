@@ -1,10 +1,10 @@
 {
   "name": "remotion",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "Remotion video creation skills — best practices, animations, audio, captions, 3D, and more for building programmatic videos with React.",
   "author": {
-    "name": "Remotion",
     "email": "hi@remotion.dev",
+    "name": "Remotion",
     "url": "https://remotion.dev"
   },
   "homepage": "https://remotion.dev",

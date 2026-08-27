@@ -1,10 +1,10 @@
 {
   "name": "supabase",
-  "version": "0.1.10",
-  "description": "Access your Supabase projects and perform tasks like managing tables, fetching config, and querying data.",
+  "version": "1.0.0",
+  "description": "Manage Supabase projects directly through ChatGPT. Execute SQL queries on PostgreSQL databases, design and modify table schemas, deploy serverless edge functions, and configure user authentication. Access real-time logs for debugging, create and apply database migrations, and manage development branches through natural language.",
   "author": {
-    "name": "Supabase",
     "email": "support@supabase.io",
+    "name": "Supabase",
     "url": "https://supabase.com"
   },
   "homepage": "https://supabase.com",

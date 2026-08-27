@@ -1,7 +1,7 @@
 {
   "name": "zoom",
-  "version": "1.0.2",
-  "description": "Connect Codex to Zoom meeting context and build Zoom apps, bots, API integrations, SDK workflows, webhooks, and automations.",
+  "version": "1.0.0",
+  "description": "Smart meeting insights from Zoom",
   "author": {
     "name": "Zoom",
     "url": "https://github.com/zoom"

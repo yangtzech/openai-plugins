@@ -1,14 +1,9 @@
 {
   "name": "stripe",
-  "version": "1.0.2",
-  "description": "Payments and business tools",
+  "version": "7.0.0",
+  "description": "Develop your payments integration faster with the ability to create products, prices, and payment links directly in ChatGPT. Run your business from ChatGPT with the ability to retrieve and manage payments, subscriptions, invoices, refunds, disputes, and customers. Build and debug your payment integration quicker than ever by searching the Stripe documentation and getting integration recommendations without needing to leave ChatGPT.",
   "author": {
-    "name": "Stripe",
-    "url": "https://stripe.com"
+    "name": "Stripe"
   },
-  "homepage": "https://stripe.com",
-  "repository": "https://github.com/openai/plugins",
-  "license": "MIT",
-  "keywords": [],
-  "skills": "./skills/"
+  "skills": "./skills"
 }

@@ -1,9 +1,9 @@
 {
   "name": "posthog",
-  "version": "0.1.2",
-  "description": "Analyze product data and manage experiments",
+  "version": "1.0.0",
+  "description": "PostHog gives your AI agent direct access to your product analytics, feature flags, experiments, error tracking, surveys, logs, and LLM analytics. Ask questions about your data, create insights, toggle feature flags, analyze errors, search docs, and more — all from chat.",
   "author": {
-    "name": "PostHog",
+    "name": "PostHog Inc.",
     "url": "https://posthog.com"
   },
   "homepage": "https://posthog.com/docs",
