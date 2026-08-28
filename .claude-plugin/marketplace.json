@@ -8,6 +8,15 @@
   },
   "plugins": [
     {
+      "name": "adobe",
+      "description": "Adobe unlocks more ways to create and get work done from the conversation. Previously available as Photoshop, the Adobe connector now brings creativity and productivity capabilities across Creative Cloud and Acrobat. Describe what you want to make or change, and Adobe can help turn ideas, images, videos, and documents into polished outputs — from editing photos and creating PDFs to designing social assets, resizing videos, searching Creative Cloud assets, and generating data-driven documents.\nKey capabilities:\n\n* Retouch portraits or edit photos in bulk: Drop in photos and describe the look you want — adjust color, lighting, and tone; remove distractions and generate new elements; apply Lightroom presets; remove backgrounds; blur, crop, resize, and expand images.\n* Design from template: Start from an Express template, update text and colors, and then animate for social media or convert to PDF.\n* Refine video for any platform: Upload a horizontal clip and ask to reformat it for YouTube Shorts, Instagram Reels, or any platform. You can also stitch clips into a single sequence.\n* Search and organize creative work: Describe what you're looking for and surface assets from your Creative Cloud library — by subject, style, mood, or content — without browsing folders.\n* Work with PDFs and documents: Create and convert polished PDFs and documents.\n* Create data-driven documents: Describe your output and provide your data — the connector turns raw data or content into formatted, shareable PDFs, including badges, cards, catalogs, and more.\n\nYou can get started as a guest, and sign in with your Adobe account for more capabilities and tools, Creative Cloud storage, and saved work across sessions.",
+      "source": "./plugins/adobe",
+      "version": "8.0.0",
+      "author": {
+        "name": "Adobe Inc"
+      }
+    },
+    {
       "name": "airtable",
       "description": "Bring operational data and context into the flow of your ChatGPT conversations. You can ask questions, create and update records, and analyze your data—all through conversation. Use the data in Airtable as input to the work you’re doing in ChatGPT, like building a landing page using content you’ve organized in Airtable. Make quick updates to Airtable without leaving the chat. Airtable for ChatGPT is ideal anytime you need quick access to structured internal data to inform your conversation.\n\nAirtable's App connects ChatGPT directly to your Airtable bases, so you can ask questions, create and update records, and analyze your data—all through conversation",
       "source": "./plugins/airtable",
@@ -202,6 +211,29 @@
       }
     },
     {
+      "name": "chatcut",
+      "description": "Install, open, and connect the signed ChatCut Desktop app from Codex.",
+      "source": "./plugins/chatcut",
+      "version": "1.0.4",
+      "author": {
+        "email": "dev@chatcut.io",
+        "name": "ChatCut",
+        "url": "https://chatcut.io"
+      },
+      "keywords": [
+        "chatcut",
+        "desktop",
+        "video",
+        "video-editing",
+        "codex",
+        "mcp",
+        "apple-silicon",
+        "intel-mac",
+        "windows"
+      ],
+      "homepage": "https://chatcut.io"
+    },
+    {
       "name": "circleci",
       "description": "Build, test, and deploy any application",
       "source": "./plugins/circleci",
@@ -231,6 +263,15 @@
         "development",
         "claude-code"
       ]
+    },
+    {
+      "name": "clickup",
+      "description": "Turn Codex into your ClickUp command center.",
+      "source": "./plugins/clickup",
+      "version": "1.0.3",
+      "author": {
+        "name": "ClickUp"
+      }
     },
     {
       "name": "cloudflare",
@@ -289,6 +330,84 @@
         "threat-modeling"
       ],
       "homepage": "https://developers.openai.com/codex/security"
+    },
+    {
+      "name": "consensus",
+      "description": "Consensus is the go-to MCP for academic research. Connect directly to 220M+ peer-reviewed papers to search, synthesize, and build structured research outputs from within your conversation.\n\nRun literature reviews, build boolean search strategies, generate bibliographies, identify research gaps, and draft cited content — grounded in studies from PubMed, Semantic Scholar, and ArXiv. Pre-built workflows handle complex tasks in minutes: systematic reviews, curriculum reading lists, grant research with novelty analysis, and clinical evidence synthesis.\n\nBuilt for researchers, students, faculty, and clinicians across biomedical, social science, STEM, and all academic disciplines.",
+      "source": "./plugins/consensus",
+      "version": "4.0.0",
+      "author": {
+        "name": "Consensus"
+      }
+    },
+    {
+      "name": "creative-production",
+      "description": "Explore campaign ideas, concept images, mood boards, product placements, ad directions, listing images, social posts, and launch assets.",
+      "source": "./plugins/creative-production",
+      "version": "0.1.25",
+      "author": {
+        "name": "Creative Production",
+        "email": "adrianmasson@openai.com, storus@openai.com"
+      },
+      "keywords": [
+        "creative-production",
+        "marketing",
+        "creative",
+        "visuals",
+        "images",
+        "image-generation",
+        "mood-board",
+        "campaigns",
+        "ads",
+        "social-posts",
+        "product-photos",
+        "brand",
+        "design",
+        "marketing-assets",
+        "visual-exploration",
+        "asset-production"
+      ],
+      "homepage": "https://github.com/openai/oai-maintained-plugins/tree/main/plugins/creative-production"
+    },
+    {
+      "name": "data-analytics",
+      "description": "Answer product and business questions with data",
+      "source": "./plugins/data-analytics",
+      "version": "0.2.8",
+      "author": {
+        "name": "Data Analytics Maintainers"
+      },
+      "keywords": [
+        "data-analytics",
+        "analytics",
+        "business intelligence",
+        "sql",
+        "business-context",
+        "dashboards",
+        "funnel-analysis",
+        "kpi-reporting",
+        "market-sizing",
+        "metric-diagnostics",
+        "post-launch-updates",
+        "product-analysis",
+        "retention",
+        "root-cause-analysis",
+        "scorecards",
+        "validation",
+        "visualization",
+        "jupyter-notebooks",
+        "databricks",
+        "bigquery",
+        "snowflake",
+        "deepnote",
+        "mixpanel",
+        "mixpanel-headless",
+        "metabase",
+        "thoughtspot",
+        "guided-flow",
+        "semantic-layer"
+      ],
+      "homepage": "https://openai.com/"
     },
     {
       "name": "datadog",
@@ -457,7 +576,7 @@
       "name": "google-drive",
       "description": "Use Google Drive as the single entrypoint for Drive, Docs, Sheets, and Slides work.",
       "source": "./plugins/google-drive",
-      "version": "0.1.11",
+      "version": "0.1.15",
       "author": {
         "name": "OpenAI",
         "email": "support@openai.com",
@@ -489,6 +608,15 @@
         "url": "https://www.granola.ai"
       },
       "homepage": "https://www.granola.ai"
+    },
+    {
+      "name": "higgsfield",
+      "description": "Generate images and videos from a text prompt or your own photo. Turn a product shot into a video ad, restyle a photo, animate a still, or build a two-minute narrated explainer. Every major image and video model in one place.",
+      "source": "./plugins/higgsfield",
+      "version": "1.2.1",
+      "author": {
+        "name": "Higgsfield AI, Inc."
+      }
     },
     {
       "name": "hyperframes",
@@ -553,6 +681,15 @@
         "url": "https://linear.app/"
       },
       "homepage": "https://linear.app/"
+    },
+    {
+      "name": "lovable",
+      "description": "Build apps and websites",
+      "source": "./plugins/lovable",
+      "version": "2.0.1",
+      "author": {
+        "name": "Lovable Labs"
+      }
     },
     {
       "name": "magicpath",
@@ -851,6 +988,42 @@
       "homepage": "https://openai.com/"
     },
     {
+      "name": "public-equity-investing",
+      "description": "Public equity investing workflows for listed-company research, earnings analysis, valuation, model updates, long/short pitches, catalysts, thesis tracking, ETF/index and constituent diligence, sell-side research notes, risk sizing, hedging, dashboards, and investment memos.",
+      "source": "./plugins/public-equity-investing",
+      "version": "0.1.31",
+      "author": {
+        "name": "OpenAI"
+      },
+      "keywords": [
+        "public-equity-investing",
+        "factset",
+        "morningstar",
+        "lseg",
+        "s&p global",
+        "pitchbook",
+        "quartr",
+        "alpaca",
+        "daloopa",
+        "public-equity",
+        "listed-equities",
+        "equity-research",
+        "long-only",
+        "hedge-fund",
+        "long-short",
+        "earnings",
+        "valuation",
+        "catalysts",
+        "investment-memo",
+        "etf-index-diligence",
+        "benchmark-relative-equity",
+        "sell-side-research",
+        "public-equity-diligence",
+        "portfolio-manager"
+      ],
+      "homepage": "https://github.com/openai/oai-maintained-plugins/tree/main/plugins/public-equity-investing"
+    },
+    {
       "name": "remotion",
       "description": "Remotion video creation skills — best practices, animations, audio, captions, 3D, and more for building programmatic videos with React.",
       "source": "./plugins/remotion",
@@ -928,8 +1101,8 @@
       "source": "./plugins/slack",
       "version": "0.1.7",
       "author": {
-        "name": "OpenAI",
         "email": "support@openai.com",
+        "name": "Slack",
         "url": "https://openai.com/"
       },
       "keywords": [

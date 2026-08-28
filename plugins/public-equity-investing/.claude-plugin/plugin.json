@@ -1,0 +1,38 @@
+{
+  "name": "public-equity-investing",
+  "version": "0.1.31",
+  "description": "Public equity investing workflows for listed-company research, earnings analysis, valuation, model updates, long/short pitches, catalysts, thesis tracking, ETF/index and constituent diligence, sell-side research notes, risk sizing, hedging, dashboards, and investment memos.",
+  "author": {
+    "name": "OpenAI"
+  },
+  "homepage": "https://github.com/openai/oai-maintained-plugins/tree/main/plugins/public-equity-investing",
+  "repository": "https://github.com/openai/oai-maintained-plugins/tree/main/plugins/public-equity-investing",
+  "license": "Proprietary",
+  "keywords": [
+    "public-equity-investing",
+    "factset",
+    "morningstar",
+    "lseg",
+    "s&p global",
+    "pitchbook",
+    "quartr",
+    "alpaca",
+    "daloopa",
+    "public-equity",
+    "listed-equities",
+    "equity-research",
+    "long-only",
+    "hedge-fund",
+    "long-short",
+    "earnings",
+    "valuation",
+    "catalysts",
+    "investment-memo",
+    "etf-index-diligence",
+    "benchmark-relative-equity",
+    "sell-side-research",
+    "public-equity-diligence",
+    "portfolio-manager"
+  ],
+  "skills": "./skills/"
+}

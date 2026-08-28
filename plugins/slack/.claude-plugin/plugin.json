@@ -3,8 +3,8 @@
   "version": "0.1.7",
   "description": "Work with Slack using the configured Slack integration.",
   "author": {
-    "name": "OpenAI",
     "email": "support@openai.com",
+    "name": "Slack",
     "url": "https://openai.com/"
   },
   "homepage": "https://slack.com/",

@@ -1,0 +1,25 @@
+{
+  "name": "chatcut",
+  "version": "1.0.4",
+  "description": "Install, open, and connect the signed ChatCut Desktop app from Codex.",
+  "author": {
+    "email": "dev@chatcut.io",
+    "name": "ChatCut",
+    "url": "https://chatcut.io"
+  },
+  "homepage": "https://chatcut.io",
+  "repository": "https://github.com/ChatCut-Inc/agent-plugin.git",
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "chatcut",
+    "desktop",
+    "video",
+    "video-editing",
+    "codex",
+    "mcp",
+    "apple-silicon",
+    "intel-mac",
+    "windows"
+  ],
+  "skills": "./skills/"
+}

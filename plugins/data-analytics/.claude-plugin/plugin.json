@@ -1,0 +1,43 @@
+{
+  "name": "data-analytics",
+  "version": "0.2.8",
+  "description": "Answer product and business questions with data",
+  "author": {
+    "name": "Data Analytics Maintainers"
+  },
+  "homepage": "https://openai.com/",
+  "repository": "",
+  "license": "Proprietary",
+  "keywords": [
+    "data-analytics",
+    "analytics",
+    "business intelligence",
+    "sql",
+    "business-context",
+    "dashboards",
+    "funnel-analysis",
+    "kpi-reporting",
+    "market-sizing",
+    "metric-diagnostics",
+    "post-launch-updates",
+    "product-analysis",
+    "retention",
+    "root-cause-analysis",
+    "scorecards",
+    "validation",
+    "visualization",
+    "jupyter-notebooks",
+    "databricks",
+    "bigquery",
+    "snowflake",
+    "deepnote",
+    "mixpanel",
+    "mixpanel-headless",
+    "metabase",
+    "thoughtspot",
+    "guided-flow",
+    "semantic-layer"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

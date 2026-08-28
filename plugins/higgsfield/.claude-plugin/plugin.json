@@ -1,0 +1,9 @@
+{
+  "name": "higgsfield",
+  "version": "1.2.1",
+  "description": "Generate images and videos from a text prompt or your own photo. Turn a product shot into a video ad, restyle a photo, animate a still, or build a two-minute narrated explainer. Every major image and video model in one place.",
+  "author": {
+    "name": "Higgsfield AI, Inc."
+  },
+  "skills": "./skills"
+}
