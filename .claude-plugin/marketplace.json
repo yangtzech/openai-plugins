@@ -318,7 +318,7 @@
       "name": "codex-security",
       "description": "Codex Security workflows for security scans, analysis, and investigation.",
       "source": "./plugins/codex-security",
-      "version": "0.1.22",
+      "version": "0.1.24",
       "author": {
         "name": "OpenAI"
       },
